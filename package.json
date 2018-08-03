@@ -1,0 +1,14 @@
+{
+  "name": "@nsis/language-data",
+  "version": "0.0.0",
+  "description": "Data for contributed NSIS language files",
+  "main": "data/languages.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "nsis"
+  ],
+  "author": "",
+  "license": "Zlib"
+}
