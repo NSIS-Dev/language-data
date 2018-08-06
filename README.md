@@ -1,7 +1,7 @@
 # language-data
 
-[![npm](https://img.shields.io/npm/l/@nsis/language-data.svg?style=flat-square)](https://www.npmjs.org/package/@nsis/language-data)
-[![npm](https://img.shields.io/npm/v/@nsis/language-data.svg?style=flat-square)](https://www.npmjs.org/package/@nsis/language-data)
+[![npm](https://flat.badgen.net/npm/license/@nsis/language-data)](https://www.npmjs.org/package/@nsis/language-data)
+[![npm](https://flat.badgen.net/npm/v/@nsis/language-data)](https://www.npmjs.org/package/@nsis/language-data)
 
 ## Description
 
