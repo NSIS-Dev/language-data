@@ -25,6 +25,6 @@ gulp.task('jsonlint', (done) => {
 });
 
 // Tasks
-gulp.task('default', gulp.parallel('eslint', 'jsonlint', (done) => {
+gulp.task('lint', gulp.parallel('eslint', 'jsonlint', (done) => {
   done();
 }));

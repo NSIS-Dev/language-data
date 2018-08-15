@@ -4,7 +4,7 @@
   "description": "Data for contributed NSIS language files",
   "main": "data/languages.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "gulp lint"
   },
   "author": "Jan T. Sott",
   "license": "Zlib",
