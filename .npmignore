@@ -1,11 +1,12 @@
 # Folders
 .circleci/
-.editorconfig
 src/
 test/
 types/
 
 # Files
+.editorconfig
+.eslintrc.json
 .gitignore
 .travis.yml
 gulpfile.js
