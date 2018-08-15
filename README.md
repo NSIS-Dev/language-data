@@ -2,6 +2,8 @@
 
 [![npm](https://flat.badgen.net/npm/license/@nsis/language-data)](https://www.npmjs.org/package/@nsis/language-data)
 [![npm](https://flat.badgen.net/npm/v/@nsis/language-data)](https://www.npmjs.org/package/@nsis/language-data)
+[![CircleCI](https://flat.badgen.net/circleci/github/NSIS-Dev/language-data)](https://circleci.com/gh/NSIS-Dev/language-data)
+[![David](https://flat.badgen.net/david/dev/NSIS-Dev/language-data)](https://david-dm.org/NSIS-Dev/language-data?type=dev)
 
 ## Description
 
