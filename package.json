@@ -2,7 +2,7 @@
   "name": "@nsis/language-data",
   "version": "0.2.1",
   "description": "Data for contributed NSIS language files",
-  "main": "data/languages.js",
+  "main": "data/meta.js",
   "scripts": {
     "precommit": "npm run test",
     "test": "gulp lint"
