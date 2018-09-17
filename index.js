@@ -75,7 +75,7 @@ const Uzbek = require("./data/languages/Uzbek.js");
 const Vietnamese = require("./data/languages/Vietnamese.js");
 const Welsh = require("./data/languages/Welsh.js");
 
-module.exports.language = {
+module.exports.languages = {
   Afrikaans: Afrikaans,
   Albanian: Albanian,
   Arabic: Arabic,
