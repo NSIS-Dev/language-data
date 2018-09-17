@@ -10,4 +10,5 @@ yarn-error.log
 .yo-rc.json
 
 # Project specific
+test.*
 todo.md
