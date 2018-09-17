@@ -1,4 +1,4 @@
-{
+module.exports = {
   "header": "NLF v6",
   "id": 1052,
   "font": {
