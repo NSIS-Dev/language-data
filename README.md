@@ -17,6 +17,10 @@ Data for contributed [NSIS language files](https://github.com/kichik/nsis/tree/m
 yarn add @nsis/language-data || npm i @nsis/language-data
 ```
 
+## Related
+
+- [nlf](https://www.npmjs.com/package/@nsis/nlf) - Parser and stringifier for NSIS Language Files
+
 ## License
 
 This work is licensed under the [zlib/libpng License](https://opensource.org/licenses/Zlib)
