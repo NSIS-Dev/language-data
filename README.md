@@ -7,7 +7,9 @@
 
 ## Description
 
-Data for contributed [NSIS language files](https://github.com/kichik/nsis/tree/master/Contrib/Language%20files). Current version: NSIS v3.03
+Data for contributed [NSIS language files](https://github.com/kichik/nsis/tree/master/Contrib/Language%20files)
+
+*Current version: NSIS v3.03*
 
 ## Installation
 
