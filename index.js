@@ -146,6 +146,11 @@ module.exports.languages = {
   Welsh: Welsh
 };
 
+module.exports = {
+  languages: languages,
+  meta: meta
+}
+
 module.exports.Afrikaans = Afrikaans;
 module.exports.Albanian = Albanian;
 module.exports.Arabic = Arabic;
