@@ -19,6 +19,33 @@ Data for contributed [NSIS language files](https://github.com/kichik/nsis/tree/m
 yarn add @nsis/language-data || npm i @nsis/language-data
 ```
 
+## Usage
+
+## Usage
+
+Use ES6 imports or `require()` to include the module:
+
+```js
+// ECMAScript Import
+import { languages } from '@nsis/language-data';
+
+// CommonJS Require
+const { languages } = require('@nsis/language-data');
+```
+
+Several exports are available: `default`, `meta`, `languages` and individual languages by name (matching the `.nsh` names):
+
+```js
+// Import default
+import languageData from '@nsis/language-data';
+
+// Import by category
+import { meta, languages } from '@nsis/language-data';
+
+// Import by language
+import { English, PortgueseBR, SpanishInternational, SimpChinese } from '@nsis/language-data';
+```
+
 ## Related
 
 - [nlf](https://www.npmjs.com/package/@nsis/nlf) - Parser and stringifier for NSIS Language Files
