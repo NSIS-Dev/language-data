@@ -33,7 +33,7 @@ import { languages } from '@nsis/language-data';
 const { languages } = require('@nsis/language-data');
 ```
 
-Several exports are available: `default`, `meta`, `languages` and individual languages by name (matching the `.nsh` names):
+Several exports are available: `default`, `meta`, `languages` and individual languages (names are matching the original `.nsh` files):
 
 ```js
 // Import default
