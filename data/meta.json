@@ -172,6 +172,13 @@
     "native": "עברית",
     "literal": "Ivrit"
   },
+  "Hindi": {
+    "id": 1081,
+    "code_page": 1200,
+    "rtl": false,
+    "native": "हिन्दी",
+    "literal": "Hindi"
+  },
   "Hungarian": {
     "id": 1038,
     "code_page": 1250,
