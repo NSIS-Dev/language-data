@@ -43,7 +43,7 @@ import languageData from '@nsis/language-data';
 import { meta, languages } from '@nsis/language-data';
 
 // Import by language
-import { English, PortgueseBR, SpanishInternational, SimpChinese } from '@nsis/language-data';
+import { English, PortugueseBR, SimpChinese } from '@nsis/language-data';
 ```
 
 ## Related
