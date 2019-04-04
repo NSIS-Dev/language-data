@@ -1,7 +1,7 @@
 {
   "name": "@nsis/language-data",
   "version": "0.6.0",
-  "description": "Data for contributed NSIS language files",
+  "description": "Data for contributed NSIS language files in JSON format",
   "main": "index.js",
   "scripts": {
     "precommit": "npm run test",
