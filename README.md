@@ -7,7 +7,7 @@
 
 ## Description
 
-Data for contributed [NSIS language files](https://github.com/kichik/nsis/tree/master/Contrib/Language%20files)
+Data for contributed [NSIS language files](https://github.com/kichik/nsis/tree/master/Contrib/Language%20files) in JSON format
 
 *Current version: NSIS v3.04*
 
