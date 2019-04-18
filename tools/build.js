@@ -41,7 +41,7 @@ const mkdir = promisify(fs.mkdir);
 
     output[nshContent.file] = {
       id: nlfContent.id,
-      code_page: nlfContent.codepage,
+      code_page: nlfContent.code_page,
       rtl: nlfContent.rtl,
       english: nshContent.english,
       native: nshContent.native,

@@ -1,6 +1,7 @@
 {
   "Afrikaans": {
     "id": 1078,
+    "code_page": 1252,
     "rtl": false,
     "english": "Afrikaans",
     "native": "Afrikaans",
@@ -8,6 +9,7 @@
   },
   "Albanian": {
     "id": 1052,
+    "code_page": 1250,
     "rtl": false,
     "english": "Albanian",
     "native": "Shqip",
@@ -15,6 +17,7 @@
   },
   "Arabic": {
     "id": 1025,
+    "code_page": 1256,
     "rtl": true,
     "english": "Arabic",
     "native": "العربية",
@@ -22,6 +25,7 @@
   },
   "Armenian": {
     "id": 1067,
+    "code_page": 1200,
     "rtl": false,
     "english": "Armenian",
     "native": "Հայերեն",
@@ -29,6 +33,7 @@
   },
   "Asturian": {
     "id": 9997,
+    "code_page": 1252,
     "rtl": false,
     "english": "Asturian",
     "native": "Asturies",
@@ -36,6 +41,7 @@
   },
   "Basque": {
     "id": 1069,
+    "code_page": 1252,
     "rtl": false,
     "english": "Basque",
     "native": "Euskera",
@@ -43,6 +49,7 @@
   },
   "Belarusian": {
     "id": 1059,
+    "code_page": 1251,
     "rtl": false,
     "english": "Belarusian",
     "native": "Беларуская",
@@ -50,6 +57,7 @@
   },
   "Bosnian": {
     "id": 5146,
+    "code_page": 1250,
     "rtl": false,
     "english": "Bosnian",
     "native": "Bosanski",
@@ -57,6 +65,7 @@
   },
   "Breton": {
     "id": 1150,
+    "code_page": 1252,
     "rtl": false,
     "english": "Breton",
     "native": "Brezhoneg",
@@ -64,6 +73,7 @@
   },
   "Bulgarian": {
     "id": 1026,
+    "code_page": 1251,
     "rtl": false,
     "english": "Bulgarian",
     "native": "Български",
@@ -71,6 +81,7 @@
   },
   "Catalan": {
     "id": 1027,
+    "code_page": 1252,
     "rtl": false,
     "english": "Catalan",
     "native": "Català",
@@ -78,6 +89,7 @@
   },
   "Corsican": {
     "id": 1155,
+    "code_page": 1252,
     "rtl": false,
     "english": "Corsican",
     "native": "Corsu",
@@ -85,6 +97,7 @@
   },
   "Croatian": {
     "id": 1050,
+    "code_page": 1250,
     "rtl": false,
     "english": "Croatian",
     "native": "Hrvatski",
@@ -92,6 +105,7 @@
   },
   "Czech": {
     "id": 1029,
+    "code_page": 1250,
     "rtl": false,
     "english": "Czech",
     "native": "Čeština",
@@ -99,6 +113,7 @@
   },
   "Danish": {
     "id": 1030,
+    "code_page": 1252,
     "rtl": false,
     "english": "Danish",
     "native": "Dansk",
@@ -106,6 +121,7 @@
   },
   "Dutch": {
     "id": 1043,
+    "code_page": 1252,
     "rtl": false,
     "english": "Dutch",
     "native": "Nederlands",
@@ -113,6 +129,7 @@
   },
   "English": {
     "id": 1033,
+    "code_page": null,
     "rtl": false,
     "english": "English",
     "native": "English",
@@ -120,6 +137,7 @@
   },
   "Esperanto": {
     "id": 9998,
+    "code_page": null,
     "rtl": false,
     "english": "Esperanto",
     "native": "Esperanto",
@@ -127,6 +145,7 @@
   },
   "Estonian": {
     "id": 1061,
+    "code_page": 1257,
     "rtl": false,
     "english": "Estonian",
     "native": "Eesti keel",
@@ -134,6 +153,7 @@
   },
   "Farsi": {
     "id": 1065,
+    "code_page": 1256,
     "rtl": true,
     "english": "Persian",
     "native": "فارسی",
@@ -141,6 +161,7 @@
   },
   "Finnish": {
     "id": 1035,
+    "code_page": 1252,
     "rtl": false,
     "english": "Finnish",
     "native": "Suomi",
@@ -148,6 +169,7 @@
   },
   "French": {
     "id": 1036,
+    "code_page": 1252,
     "rtl": false,
     "english": "French",
     "native": "Français",
@@ -155,6 +177,7 @@
   },
   "Galician": {
     "id": 1110,
+    "code_page": 1252,
     "rtl": false,
     "english": "Galician",
     "native": "Galego",
@@ -162,6 +185,7 @@
   },
   "Georgian": {
     "id": 1079,
+    "code_page": 1200,
     "rtl": false,
     "english": "Georgian",
     "native": "ქართული",
@@ -169,6 +193,7 @@
   },
   "German": {
     "id": 1031,
+    "code_page": 1252,
     "rtl": false,
     "english": "German",
     "native": "Deutsch",
@@ -176,6 +201,7 @@
   },
   "Greek": {
     "id": 1032,
+    "code_page": 1253,
     "rtl": false,
     "english": "Greek",
     "native": "Ελληνικά",
@@ -183,6 +209,7 @@
   },
   "Hebrew": {
     "id": 1037,
+    "code_page": 1255,
     "rtl": true,
     "english": "Hebrew",
     "native": "עברית",
@@ -190,6 +217,7 @@
   },
   "Hindi": {
     "id": 1081,
+    "code_page": 1200,
     "rtl": false,
     "english": "Hindi",
     "native": "हिन्दी",
@@ -197,6 +225,7 @@
   },
   "Hungarian": {
     "id": 1038,
+    "code_page": 1250,
     "rtl": false,
     "english": "Hungarian",
     "native": "Magyar",
@@ -204,6 +233,7 @@
   },
   "Icelandic": {
     "id": 1039,
+    "code_page": 1252,
     "rtl": false,
     "english": "Icelandic",
     "native": "Íslenska",
@@ -211,6 +241,7 @@
   },
   "Indonesian": {
     "id": 1057,
+    "code_page": 1252,
     "rtl": false,
     "english": "Indonesian",
     "native": "Bahasa Indonesia",
@@ -218,6 +249,7 @@
   },
   "Irish": {
     "id": 2108,
+    "code_page": 1252,
     "rtl": false,
     "english": "Irish",
     "native": "Gaeilge",
@@ -225,6 +257,7 @@
   },
   "Italian": {
     "id": 1040,
+    "code_page": 1252,
     "rtl": false,
     "english": "Italian",
     "native": "Italiano",
@@ -232,6 +265,7 @@
   },
   "Japanese": {
     "id": 1041,
+    "code_page": 932,
     "rtl": false,
     "english": "Japanese",
     "native": "日本語",
@@ -239,6 +273,7 @@
   },
   "Korean": {
     "id": 1042,
+    "code_page": 949,
     "rtl": false,
     "english": "Korean",
     "native": "한국어",
@@ -246,6 +281,7 @@
   },
   "Kurdish": {
     "id": 9999,
+    "code_page": 1254,
     "rtl": false,
     "english": "Kurdish",
     "native": "Kurdî",
@@ -253,6 +289,7 @@
   },
   "Latvian": {
     "id": 1062,
+    "code_page": 1257,
     "rtl": false,
     "english": "Latvian",
     "native": "Latviešu",
@@ -260,6 +297,7 @@
   },
   "Lithuanian": {
     "id": 1063,
+    "code_page": 1257,
     "rtl": false,
     "english": "Lithuanian",
     "native": "Lietuvių",
@@ -267,6 +305,7 @@
   },
   "Luxembourgish": {
     "id": 4103,
+    "code_page": 1252,
     "rtl": false,
     "english": "Luxembourgish",
     "native": "Lëtzebuergesch",
@@ -274,6 +313,7 @@
   },
   "Macedonian": {
     "id": 1071,
+    "code_page": 1251,
     "rtl": false,
     "english": "Macedonian",
     "native": "Македонски",
@@ -281,6 +321,7 @@
   },
   "Malay": {
     "id": 1086,
+    "code_page": 1252,
     "rtl": false,
     "english": "Malay",
     "native": "Bahasa Melayu",
@@ -288,6 +329,7 @@
   },
   "Mongolian": {
     "id": 1104,
+    "code_page": 1251,
     "rtl": false,
     "english": "Mongolian (Cyrillic)",
     "native": "Монгол Кирилл",
@@ -295,6 +337,7 @@
   },
   "Norwegian": {
     "id": 1044,
+    "code_page": 1252,
     "rtl": false,
     "english": "Norwegian",
     "native": "Norsk",
@@ -302,6 +345,7 @@
   },
   "NorwegianNynorsk": {
     "id": 2068,
+    "code_page": 1252,
     "rtl": false,
     "english": "Norwegian (Nynorsk)",
     "native": "Norsk (nynorsk)",
@@ -309,6 +353,7 @@
   },
   "Pashto": {
     "id": 1123,
+    "code_page": 1256,
     "rtl": true,
     "english": "Pashto",
     "native": "پښتو",
@@ -316,6 +361,7 @@
   },
   "Polish": {
     "id": 1045,
+    "code_page": 1250,
     "rtl": false,
     "english": "Polish",
     "native": "Polski",
@@ -323,6 +369,7 @@
   },
   "Portuguese": {
     "id": 2070,
+    "code_page": 1252,
     "rtl": false,
     "english": "Portuguese",
     "native": "Português",
@@ -330,6 +377,7 @@
   },
   "PortugueseBR": {
     "id": 1046,
+    "code_page": 1252,
     "rtl": false,
     "english": "Brazilian Portuguese",
     "native": "Português Brasileiro",
@@ -337,6 +385,7 @@
   },
   "Romanian": {
     "id": 1048,
+    "code_page": 1250,
     "rtl": false,
     "english": "Romanian",
     "native": "Română",
@@ -344,6 +393,7 @@
   },
   "Russian": {
     "id": 1049,
+    "code_page": 1251,
     "rtl": false,
     "english": "Russian",
     "native": "Русский",
@@ -351,6 +401,7 @@
   },
   "ScotsGaelic": {
     "id": 1169,
+    "code_page": 1252,
     "rtl": false,
     "english": "Scottish Gaelic",
     "native": "Gàidhlig",
@@ -358,6 +409,7 @@
   },
   "Serbian": {
     "id": 3098,
+    "code_page": 1251,
     "rtl": false,
     "english": "Serbian (Cyrillic)",
     "native": "Српски",
@@ -365,6 +417,7 @@
   },
   "SerbianLatin": {
     "id": 2074,
+    "code_page": 1250,
     "rtl": false,
     "english": "Serbian (Latin)",
     "native": "Srpski",
@@ -372,6 +425,7 @@
   },
   "SimpChinese": {
     "id": 2052,
+    "code_page": 936,
     "rtl": false,
     "english": "Chinese (Simplified)",
     "native": "中文(简体)",
@@ -379,6 +433,7 @@
   },
   "Slovak": {
     "id": 1051,
+    "code_page": 1250,
     "rtl": false,
     "english": "Slovak",
     "native": "Slovenčina",
@@ -386,6 +441,7 @@
   },
   "Slovenian": {
     "id": 1060,
+    "code_page": 1250,
     "rtl": false,
     "english": "Slovenian",
     "native": "Slovenski",
@@ -393,6 +449,7 @@
   },
   "Spanish": {
     "id": 1034,
+    "code_page": 1252,
     "rtl": false,
     "english": "Spanish",
     "native": "Español",
@@ -400,6 +457,7 @@
   },
   "SpanishInternational": {
     "id": 3082,
+    "code_page": 1252,
     "rtl": false,
     "english": "Spanish (International)",
     "native": "Español (Alfabetización Internacional)",
@@ -407,6 +465,7 @@
   },
   "Swedish": {
     "id": 1053,
+    "code_page": 1252,
     "rtl": false,
     "english": "Swedish",
     "native": "Svenska",
@@ -414,6 +473,7 @@
   },
   "Tatar": {
     "id": 1092,
+    "code_page": 1251,
     "rtl": false,
     "english": "Tatar",
     "native": "Татарча",
@@ -421,6 +481,7 @@
   },
   "Thai": {
     "id": 1054,
+    "code_page": 874,
     "rtl": false,
     "english": "Thai",
     "native": "ไทย",
@@ -428,6 +489,7 @@
   },
   "TradChinese": {
     "id": 1028,
+    "code_page": 950,
     "rtl": false,
     "english": "Chinese (Traditional)",
     "native": "中文(繁體)",
@@ -435,6 +497,7 @@
   },
   "Turkish": {
     "id": 1055,
+    "code_page": 1254,
     "rtl": false,
     "english": "Turkish",
     "native": "Türkçe",
@@ -442,6 +505,7 @@
   },
   "Ukrainian": {
     "id": 1058,
+    "code_page": 1251,
     "rtl": false,
     "english": "Ukrainian",
     "native": "Українська",
@@ -449,6 +513,7 @@
   },
   "Uzbek": {
     "id": 1091,
+    "code_page": 1252,
     "rtl": false,
     "english": "Uzbek",
     "native": "O‘zbek",
@@ -456,6 +521,7 @@
   },
   "Vietnamese": {
     "id": 1066,
+    "code_page": 1258,
     "rtl": false,
     "english": "Vietnamese",
     "native": "Tiếng Việt",
@@ -463,6 +529,7 @@
   },
   "Welsh": {
     "id": 1106,
+    "code_page": 1252,
     "rtl": false,
     "english": "Welsh",
     "native": "Cymraeg",
