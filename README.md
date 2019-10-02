@@ -39,7 +39,7 @@ Several exports are available: `default`, `meta`, `languages` and individual lan
 // Import default
 import languageData from '@nsis/language-data';
 
-// Import by category
+// Import by type
 import { meta, languages } from '@nsis/language-data';
 
 // Import by language
