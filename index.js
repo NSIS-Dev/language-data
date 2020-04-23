@@ -1,7 +1,7 @@
 /**
  * Language Meta Data
  */
-const meta = require("./data/meta.json");
+const meta = require('./data/meta.json');
 
 module.exports.meta = meta;
 
