@@ -1,6 +1,6 @@
 {
   "name": "@nsis/language-data",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Data for contributed NSIS language files in JSON format",
   "main": "index.js",
   "scripts": {
