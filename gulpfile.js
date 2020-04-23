@@ -6,10 +6,10 @@ const jsonlint = require('gulp-jsonlint');
 
 // Lint JavaScript files
 gulp.task('eslint', (done) => {
-  gulp.src(['./data/**/*.js'])
-  .pipe(debug({title: 'eslint:'}))
-  .pipe(eslint())
-  .pipe(eslint.failAfterError());
+  gulp.src(['./index.js'])
+    .pipe(debug({title: 'eslint:'}))
+    .pipe(eslint())
+    .pipe(eslint.failAfterError());
 
   done()
 });
@@ -17,9 +17,9 @@ gulp.task('eslint', (done) => {
 // Lint JSON files
 gulp.task('jsonlint', (done) => {
   gulp.src(['./data/**/*.json'])
-  .pipe(debug({title: 'jsonlint:'}))
-  .pipe(jsonlint())
-  .pipe(jsonlint.reporter());
+    .pipe(debug({title: 'jsonlint:'}))
+    .pipe(jsonlint())
+    .pipe(jsonlint.reporter());
 
   done()
 });
