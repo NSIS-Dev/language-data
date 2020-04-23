@@ -76,7 +76,7 @@ const Uzbek = require('./data/languages/Uzbek.json');
 const Vietnamese = require('./data/languages/Vietnamese.json');
 const Welsh = require('./data/languages/Welsh.json');
 
-languages = {
+const languages = {
   Afrikaans,
   Albanian,
   Arabic,
@@ -151,7 +151,7 @@ module.exports.languages;
 module.exports = {
   languages,
   meta
-}
+};
 
 /**
  * Shortcuts
