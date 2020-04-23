@@ -6,12 +6,12 @@ const jsonlint = require('gulp-jsonlint');
 
 // Lint JavaScript files
 gulp.task('eslint', (done) => {
-  gulp.src(['./index.js'])
+  gulp.src(['./*.js'])
     .pipe(debug({title: 'eslint:'}))
     .pipe(eslint())
     .pipe(eslint.failAfterError());
 
-  done()
+  done();
 });
 
 // Lint JSON files
@@ -21,7 +21,7 @@ gulp.task('jsonlint', (done) => {
     .pipe(jsonlint())
     .pipe(jsonlint.reporter());
 
-  done()
+  done();
 });
 
 // Tasks
