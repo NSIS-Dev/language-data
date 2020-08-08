@@ -18,17 +18,17 @@
   ],
   "devDependencies": {
     "@nsis/mui-language-strings": "^0.3.0",
-    "@nsis/nlf": "^0.6.1",
-    "globby": "^11.0.0",
+    "@nsis/nlf": "^0.7.1",
+    "globby": "^11.0.1",
     "gulp": "^4.0.2",
     "gulp-debug": "^4.0.0",
     "gulp-eslint": "^6.0.0",
     "gulp-jsonlint": "^1.3.2",
     "husky": "^4.2.5",
-    "makensis": "^0.20.3",
+    "makensis": "^0.21.1",
     "rimraf": "^3.0.2",
     "sort-keys": "^4.0.0",
-    "util": "^0.12.2"
+    "util": "^0.12.3"
   },
   "husky": {
     "hooks": {
