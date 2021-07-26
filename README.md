@@ -21,9 +21,7 @@ yarn add @nsis/language-data || npm i @nsis/language-data
 
 ## Usage
 
-## Usage
-
-Use ES6 imports or `require()` to include the module:
+Use ESM imports or `require()` to include the module:
 
 ```js
 // ECMAScript Import
