@@ -1,5 +1,6 @@
 # Folders
 .circleci/
+.husky/
 src/
 test/
 types/
