@@ -223,3 +223,25 @@ module.exports.Ukrainian = Ukrainian;
 module.exports.Uzbek = Uzbek;
 module.exports.Vietnamese = Vietnamese;
 module.exports.Welsh = Welsh;
+
+/**
+ * Codepages
+ */
+module.exports.codepages = () => {
+  const codePages = [];
+
+  Object
+    .values(languages)
+    .map(key => {
+      const codePage = key['code_page'];
+
+      if (!isNaN(codePage) && !codePages.includes(codePage)) {
+        codePages.push(codePage);
+      }
+    });
+
+  return codePages
+    .filter(cp => cp)
+    .sort();
+};
+
