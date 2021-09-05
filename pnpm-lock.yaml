@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@nsis/mui-language-strings': ^0.3.0
-  '@nsis/nlf': ^0.7.1
+  '@nsis/nlf': ^0.9.0
   '@rollup/plugin-commonjs': ^20.0.0
   '@rollup/plugin-json': ^4.1.0
   '@rollup/plugin-typescript': ^8.2.5
@@ -24,7 +24,7 @@ specifiers:
 
 devDependencies:
   '@nsis/mui-language-strings': 0.3.0
-  '@nsis/nlf': 0.7.1
+  '@nsis/nlf': 0.9.0
   '@rollup/plugin-commonjs': 20.0.0_rollup@2.56.3
   '@rollup/plugin-json': 4.1.0_rollup@2.56.3
   '@rollup/plugin-typescript': 8.2.5_fb60d1099d0f1062e1f455c5bc85cce0
@@ -134,8 +134,10 @@ packages:
     resolution: {integrity: sha512-pgJN5mkXD+ZEhzNHqPGzWp69fCs80RnqTKzezebYX0+uHYjcG4gQZzvc6kJiG19p8HlEM0/UdPuEYSZUi5KhdA==}
     dev: true
 
-  /@nsis/nlf/0.7.1:
-    resolution: {integrity: sha512-VRHnHJLOnN+MuOv58WyxUK7qiAsuRK50cq/bCkZoCKnOAI+bFjpmj8/ZLVvfH5Z+7+l9bcjSrmCFNWjSALF7eg==}
+  /@nsis/nlf/0.9.0:
+    resolution: {integrity: sha512-crwIXWuq7cJ6222drn2uGYt3SqavKwWO1kRddoJ+z0AlzsZYfDRsG18/cmqthknMJF2ne7+0LOy0Rf5VrB9mBQ==}
+    dependencies:
+      json5: 2.2.0
     dev: true
 
   /@rollup/plugin-commonjs/20.0.0_rollup@2.56.3:
@@ -1211,6 +1213,14 @@ packages:
     resolution: {integrity: sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=}
     dev: true
 
+  /json5/2.2.0:
+    resolution: {integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==}
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.5
+    dev: true
+
   /jsonc-parser/3.0.0:
     resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
     dev: true
@@ -1360,6 +1370,10 @@ packages:
     resolution: {integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==}
     dependencies:
       brace-expansion: 1.1.11
+    dev: true
+
+  /minimist/1.2.5:
+    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
     dev: true
 
   /ms/2.1.2:
