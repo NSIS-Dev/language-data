@@ -1,16 +1,20 @@
-# Package Managers
+# dependencies
 bower_components/
 node_modules/
+vendor/
 
-# Error Logs
-*npm-debug.log*
+# package manager files
+npm-debug.log*
 package-lock.json
 yarn-error.log
 yarn.lock
+shrinkwrap.yaml
 
-# Yeoman
-.yo-rc.json
+# development
+.eslintcache
+tsconfig.tsbuildinfo
 
-# Project specific
-test.*
+# project specific
+test.js
+test.ts
 todo.md

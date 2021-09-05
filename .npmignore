@@ -1,5 +1,5 @@
 # Folders
-.circleci/
+.github/
 .husky/
 src/
 test/
@@ -7,6 +7,7 @@ types/
 
 # Files
 .editorconfig
+.eslintcache
 .eslintrc.json
 .gitignore
 .travis.yml
