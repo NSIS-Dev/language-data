@@ -47,6 +47,11 @@
     "util": "^0.12.3"
   },
   "lint-staged": {
-    "*.(ts|json)": "eslint --cache --fix"
+    "*.(ts|json)": "eslint --cache --fix --ignore-path .gitignore"
+  },
+  "volta": {
+    "node": "14.17.6",
+    "npm": "6.14.15",
+    "yarn": "1.22.11"
   }
 }

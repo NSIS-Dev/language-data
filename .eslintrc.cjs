@@ -10,9 +10,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:json/recommended'
   ],
-  parserOptions: {
-    sourceType: "module"
-  },
   plugins: [
     '@typescript-eslint'
   ],
