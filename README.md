@@ -24,10 +24,10 @@ yarn add @nsis/language-data || npm i @nsis/language-data
 Use ESM imports or `require()` to include the module:
 
 ```js
-// ECMAScript Import
+// ES Module
 import { languages } from '@nsis/language-data';
 
-// CommonJS Require
+// CommonJS
 const { languages } = require('@nsis/language-data');
 ```
 
