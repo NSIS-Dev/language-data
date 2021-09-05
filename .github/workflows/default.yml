@@ -19,12 +19,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - uses: pnpm/action-setup@v2.0.1
-      with:
-          version: 6.0.2
-          run_install: |
-            args: [--frozen-lockfile]
-
     - name: Cache node modules
       uses: actions/cache@v2
       env:
@@ -38,13 +32,13 @@ jobs:
           ${{ runner.os }}-
 
     - name: Install Packages Dependencies
-      run: pnpm install
+      run: npm ci
 
     - name: Lint Source
-      run: pnpm run lint --if-present
+      run: npm run lint --if-present
 
     - name: Build Source
-      run: pnpm run build:code --if-present
+      run: npm run build:code --if-present
 
     - name: Run Tests
-      run: pnpm run test --if-present
+      run: npm run test --if-present
