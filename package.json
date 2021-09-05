@@ -7,6 +7,12 @@
     "import": "./dist/index.mjs",
     "require": "./dist/index.cjs"
   },
+  "typings": "./types",
+  "files": [
+    "data/",
+    "dist/",
+    "types/"
+  ],
   "scripts": {
     "build:code": "rollup --config",
     "build:json": "node tools/build.cjs",
