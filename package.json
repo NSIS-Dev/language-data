@@ -2,11 +2,18 @@
   "name": "@nsis/language-data",
   "version": "0.8.0",
   "description": "Data for contributed NSIS language files in JSON format",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
   "scripts": {
-    "build": "node tools/build.js",
-    "test": "gulp lint",
-    "prepare": "husky install"
+    "build:code": "rollup --config",
+    "build:json": "node tools/build.cjs",
+    "build": "npm-run-all --parallel build:*",
+    "lint": "eslint ./data/**/*.json ./src/*.ts --ignore-path .gitignore",
+    "prepare": "husky install",
+    "test": "npm run lint"
   },
   "author": "Jan T. Sott",
   "license": "Zlib",
@@ -20,15 +27,26 @@
   "devDependencies": {
     "@nsis/mui-language-strings": "^0.3.0",
     "@nsis/nlf": "^0.7.1",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/node": "^16.7.10",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-json": "^3.1.0",
     "globby": "^11.0.1",
-    "gulp": "^4.0.2",
-    "gulp-debug": "^4.0.0",
-    "gulp-eslint": "^6.0.0",
-    "gulp-jsonlint": "^1.3.2",
     "husky": "^7.0.0",
-    "makensis": "^0.21.1",
+    "lint-staged": "^11.1.2",
+    "makensis": "^1.0.2",
+    "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
-    "sort-keys": "^4.0.0",
+    "rollup": "^2.56.3",
+    "tslib": "^2.3.1",
+    "typescript": ">=4.3 <4.4",
     "util": "^0.12.3"
+  },
+  "lint-staged": {
+    "*.(ts|json)": "eslint --cache --fix"
   }
 }

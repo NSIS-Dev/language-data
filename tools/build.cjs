@@ -3,7 +3,6 @@ const NLF = require('@nsis/nlf');
 const fs = require('fs');
 const globby = require('globby');
 const rimraf = require('rimraf');
-const sortKeys = require('sort-keys');
 const { basename, extname, join } = require('path');
 const { nsisDir } = require('makensis');
 const { promisify } = require('util');
@@ -45,7 +44,7 @@ const mkdir = promisify(fs.mkdir);
       rtl: nlfContent.rtl,
       english: nshContent.english,
       native: nshContent.native,
-      native_ascii: nshContent.nativeASCII,
+      native_ascii: nshContent.nativeASCII
     };
 
     try {
