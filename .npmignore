@@ -12,5 +12,6 @@ types/
 .gitignore
 .travis.yml
 gulpfile.js
+pnpm-lock.yaml
 tsconfig.json
 tslint.json
