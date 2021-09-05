@@ -2,7 +2,7 @@
 
 [![npm](https://flat.badgen.net/npm/license/@nsis/language-data)](https://www.npmjs.org/package/@nsis/language-data)
 [![npm](https://flat.badgen.net/npm/v/@nsis/language-data)](https://www.npmjs.org/package/@nsis/language-data)
-[![CircleCI](https://flat.badgen.net/circleci/github/NSIS-Dev/language-data)](https://circleci.com/gh/NSIS-Dev/language-data)
+[![CI](https://img.shields.io/github/workflow/status/NSIS-Dev/language-data/CI?style=flat-square)](https://github.com/NSIS-Dev/language-data/actions)
 [![David](https://flat.badgen.net/david/dev/NSIS-Dev/language-data)](https://david-dm.org/NSIS-Dev/language-data?type=dev)
 
 ## Description
