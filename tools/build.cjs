@@ -48,15 +48,15 @@ const mkdir = promisify(fs.mkdir);
     };
 
     try {
-      await writeFile(`data/languages/${nshContent.file}.json`, JSON.stringify(nlfContent, null, 2), 'utf8');
+      await writeFile(`data/languages/${nshContent.file}.mjs`, 'export default ' + JSON.stringify(nlfContent, null, 2) + ';' , 'utf8');
     } catch (e) {
       throw new Error(e);
     }
   }
 
   try {
-    await writeFile(`data/languages/${nshContent.file}.json`, JSON.stringify(nlfContent, null, 2), 'utf8');
+    await writeFile('data/meta.mjs', 'export default ' + JSON.stringify(output, null, 2) + ';', 'utf8');
   } catch (e) {
-    await writeFile('data/meta.json', JSON.stringify(output, null, 2), 'utf8');
+    throw new Error(e);
   }
 })();
