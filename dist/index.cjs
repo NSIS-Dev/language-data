@@ -1,7 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 var Afrikaans$1 = {
 	id: 1078,
 	code_page: 1252,

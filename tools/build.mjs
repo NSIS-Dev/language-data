@@ -1,20 +1,18 @@
-const MUI = require('@nsis/mui-language-strings');
-const NLF = require('@nsis/nlf');
-const fs = require('fs');
-const globby = require('globby');
-const rimraf = require('rimraf');
-const { basename, extname, join } = require('path');
-const { nsisDir } = require('makensis');
-const { promisify } = require('util');
+import MUI from '@nsis/mui-language-strings';
+import * as NLF from '@nsis/nlf';
+import fs from 'fs';
+import globby from 'globby';
+import { rimraf } from 'rimraf';
+import { basename, extname, join } from 'path';
+import { nsisDir } from 'makensis';
+import { promisify } from 'util';
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
-const rimrafAsync = promisify(rimraf);
 const mkdir = promisify(fs.mkdir);
 
-(async () => {
   try {
-    await rimrafAsync('./data');
+    await rimraf('./data');
     await mkdir('./data');
     await mkdir('./data/languages');
   } catch(e) {
@@ -27,13 +25,12 @@ const mkdir = promisify(fs.mkdir);
 
   languageFiles = languageFiles.sort();
 
-   for (languageFile of languageFiles) {
+   await Promise.all(languageFiles.map(async languageFile => {
     const langExtname = extname(languageFile);
     const langBasename = basename(languageFile, langExtname);
 
     const nlfFile = await readFile(`${languageDir}/${langBasename}.nlf`, 'utf8');
     const nlfContent = NLF.parse(nlfFile);
-
 
     const nshFile = await readFile(`${languageDir}/${langBasename}.nsh`, 'utf8');
     const nshContent = await MUI.parse(nshFile, { looseQuotes: true });
@@ -52,11 +49,10 @@ const mkdir = promisify(fs.mkdir);
     } catch (e) {
       throw new Error(e);
     }
-  }
+  }));
 
   try {
     await writeFile(`data/languages/${nshContent.file}.json`, JSON.stringify(nlfContent, null, 2), 'utf8');
   } catch (e) {
     await writeFile('data/meta.json', JSON.stringify(output, null, 2), 'utf8');
   }
-})();
