@@ -65,7 +65,7 @@ jobs:
       run: pnpm run --if-present lint
 
     - name: Build Source
-      run: pnpm run --if-present build
+      run: pnpm run --if-present build:json
 
     - name: Run Tests
       run: pnpm run --if-present test
