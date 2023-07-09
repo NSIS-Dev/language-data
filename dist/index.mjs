@@ -1,10 +1,10 @@
-var Afrikaans$1 = {
-	id: 1078,
-	code_page: 1252,
+var Armenian$1 = {
+	id: 1067,
+	code_page: 1200,
 	rtl: false,
-	english: "Afrikaans",
-	native: "Afrikaans",
-	native_ascii: "Afrikaans"
+	english: "Armenian",
+	native: "Հայերեն",
+	native_ascii: "Hayeren"
 };
 var Albanian$1 = {
 	id: 1052,
@@ -14,21 +14,13 @@ var Albanian$1 = {
 	native: "Shqip",
 	native_ascii: "Shqip"
 };
-var Arabic$1 = {
-	id: 1025,
-	code_page: 1256,
-	rtl: true,
-	english: "Arabic",
-	native: "العربية",
-	native_ascii: "Al-Arabiyyah"
-};
-var Armenian$1 = {
-	id: 1067,
-	code_page: 1200,
+var Afrikaans$1 = {
+	id: 1078,
+	code_page: 1252,
 	rtl: false,
-	english: "Armenian",
-	native: "Հայերեն",
-	native_ascii: "Hayeren"
+	english: "Afrikaans",
+	native: "Afrikaans",
+	native_ascii: "Afrikaans"
 };
 var Asturian$1 = {
 	id: 9997,
@@ -38,45 +30,13 @@ var Asturian$1 = {
 	native: "Asturies",
 	native_ascii: "Asturies"
 };
-var Basque$1 = {
-	id: 1069,
-	code_page: 1252,
-	rtl: false,
-	english: "Basque",
-	native: "Euskera",
-	native_ascii: "Euskera"
-};
-var Belarusian$1 = {
-	id: 1059,
-	code_page: 1251,
-	rtl: false,
-	english: "Belarusian",
-	native: "Беларуская",
-	native_ascii: "Bielaruskaja"
-};
-var Bosnian$1 = {
-	id: 5146,
-	code_page: 1250,
-	rtl: false,
-	english: "Bosnian",
-	native: "Bosanski",
-	native_ascii: "Bosanski"
-};
-var Breton$1 = {
-	id: 1150,
-	code_page: 1252,
-	rtl: false,
-	english: "Breton",
-	native: "Brezhoneg",
-	native_ascii: "Brezhoneg"
-};
-var Bulgarian$1 = {
-	id: 1026,
-	code_page: 1251,
-	rtl: false,
-	english: "Bulgarian",
-	native: "Български",
-	native_ascii: "Balgarski"
+var Arabic$1 = {
+	id: 1025,
+	code_page: 1256,
+	rtl: true,
+	english: "Arabic",
+	native: "العربية",
+	native_ascii: "Al-Arabiyyah"
 };
 var Catalan$1 = {
 	id: 1027,
@@ -86,13 +46,37 @@ var Catalan$1 = {
 	native: "Català",
 	native_ascii: "Catala"
 };
-var Corsican$1 = {
-	id: 1155,
+var Belarusian$1 = {
+	id: 1059,
+	code_page: 1251,
+	rtl: false,
+	english: "Belarusian",
+	native: "Беларуская",
+	native_ascii: "Bielaruskaja"
+};
+var Breton$1 = {
+	id: 1150,
 	code_page: 1252,
 	rtl: false,
-	english: "Corsican",
-	native: "Corsu",
-	native_ascii: "Corsu"
+	english: "Breton",
+	native: "Brezhoneg",
+	native_ascii: "Brezhoneg"
+};
+var Basque$1 = {
+	id: 1069,
+	code_page: 1252,
+	rtl: false,
+	english: "Basque",
+	native: "Euskera",
+	native_ascii: "Euskera"
+};
+var Bosnian$1 = {
+	id: 5146,
+	code_page: 1250,
+	rtl: false,
+	english: "Bosnian",
+	native: "Bosanski",
+	native_ascii: "Bosanski"
 };
 var Croatian$1 = {
 	id: 1050,
@@ -102,21 +86,13 @@ var Croatian$1 = {
 	native: "Hrvatski",
 	native_ascii: "Hrvatski"
 };
-var Czech$1 = {
-	id: 1029,
-	code_page: 1250,
+var Bulgarian$1 = {
+	id: 1026,
+	code_page: 1251,
 	rtl: false,
-	english: "Czech",
-	native: "Čeština",
-	native_ascii: "Cestina"
-};
-var Danish$1 = {
-	id: 1030,
-	code_page: 1252,
-	rtl: false,
-	english: "Danish",
-	native: "Dansk",
-	native_ascii: "Dansk"
+	english: "Bulgarian",
+	native: "Български",
+	native_ascii: "Balgarski"
 };
 var Dutch$1 = {
 	id: 1043,
@@ -126,13 +102,21 @@ var Dutch$1 = {
 	native: "Nederlands",
 	native_ascii: "Nederlands"
 };
-var English$1 = {
-	id: 1033,
-	code_page: null,
+var Corsican$1 = {
+	id: 1155,
+	code_page: 1252,
 	rtl: false,
-	english: "English",
-	native: "English",
-	native_ascii: "English"
+	english: "Corsican",
+	native: "Corsu",
+	native_ascii: "Corsu"
+};
+var Czech$1 = {
+	id: 1029,
+	code_page: 1250,
+	rtl: false,
+	english: "Czech",
+	native: "Čeština",
+	native_ascii: "Cestina"
 };
 var Esperanto$1 = {
 	id: 9998,
@@ -142,13 +126,21 @@ var Esperanto$1 = {
 	native: "Esperanto",
 	native_ascii: "Esperanto"
 };
-var Estonian$1 = {
-	id: 1061,
-	code_page: 1257,
+var English$1 = {
+	id: 1033,
+	code_page: null,
 	rtl: false,
-	english: "Estonian",
-	native: "Eesti keel",
-	native_ascii: "Eesti keel"
+	english: "English",
+	native: "English",
+	native_ascii: "English"
+};
+var Danish$1 = {
+	id: 1030,
+	code_page: 1252,
+	rtl: false,
+	english: "Danish",
+	native: "Dansk",
+	native_ascii: "Dansk"
 };
 var Farsi$1 = {
 	id: 1065,
@@ -158,13 +150,13 @@ var Farsi$1 = {
 	native: "فارسی",
 	native_ascii: "Farsi"
 };
-var Finnish$1 = {
-	id: 1035,
-	code_page: 1252,
+var Estonian$1 = {
+	id: 1061,
+	code_page: 1257,
 	rtl: false,
-	english: "Finnish",
-	native: "Suomi",
-	native_ascii: "Suomi"
+	english: "Estonian",
+	native: "Eesti keel",
+	native_ascii: "Eesti keel"
 };
 var French$1 = {
 	id: 1036,
@@ -190,6 +182,14 @@ var Georgian$1 = {
 	native: "ქართული",
 	native_ascii: "Kartuli"
 };
+var Finnish$1 = {
+	id: 1035,
+	code_page: 1252,
+	rtl: false,
+	english: "Finnish",
+	native: "Suomi",
+	native_ascii: "Suomi"
+};
 var German$1 = {
 	id: 1031,
 	code_page: 1252,
@@ -206,14 +206,6 @@ var Greek$1 = {
 	native: "Ελληνικά",
 	native_ascii: "Ellinika"
 };
-var Hebrew$1 = {
-	id: 1037,
-	code_page: 1255,
-	rtl: true,
-	english: "Hebrew",
-	native: "עברית",
-	native_ascii: "Ivrit"
-};
 var Hindi$1 = {
 	id: 1081,
 	code_page: 1200,
@@ -221,14 +213,6 @@ var Hindi$1 = {
 	english: "Hindi",
 	native: "हिन्दी",
 	native_ascii: "Hindi"
-};
-var Hungarian$1 = {
-	id: 1038,
-	code_page: 1250,
-	rtl: false,
-	english: "Hungarian",
-	native: "Magyar",
-	native_ascii: "Magyar"
 };
 var Icelandic$1 = {
 	id: 1039,
@@ -238,13 +222,21 @@ var Icelandic$1 = {
 	native: "Íslenska",
 	native_ascii: "Islenska"
 };
-var Indonesian$1 = {
-	id: 1057,
-	code_page: 1252,
+var Hebrew$1 = {
+	id: 1037,
+	code_page: 1255,
+	rtl: true,
+	english: "Hebrew",
+	native: "עברית",
+	native_ascii: "Ivrit"
+};
+var Hungarian$1 = {
+	id: 1038,
+	code_page: 1250,
 	rtl: false,
-	english: "Indonesian",
-	native: "Bahasa Indonesia",
-	native_ascii: "Bahasa Indonesia"
+	english: "Hungarian",
+	native: "Magyar",
+	native_ascii: "Magyar"
 };
 var Irish$1 = {
 	id: 2108,
@@ -254,13 +246,13 @@ var Irish$1 = {
 	native: "Gaeilge",
 	native_ascii: "Gaeilge"
 };
-var Italian$1 = {
-	id: 1040,
-	code_page: 1252,
+var Kurdish$1 = {
+	id: 9999,
+	code_page: 1254,
 	rtl: false,
-	english: "Italian",
-	native: "Italiano",
-	native_ascii: "Italiano"
+	english: "Kurdish",
+	native: "Kurdî",
+	native_ascii: "Kurdi"
 };
 var Japanese$1 = {
 	id: 1041,
@@ -270,22 +262,6 @@ var Japanese$1 = {
 	native: "日本語",
 	native_ascii: "Nihongo"
 };
-var Korean$1 = {
-	id: 1042,
-	code_page: 949,
-	rtl: false,
-	english: "Korean",
-	native: "한국어",
-	native_ascii: "Hangugeo"
-};
-var Kurdish$1 = {
-	id: 9999,
-	code_page: 1254,
-	rtl: false,
-	english: "Kurdish",
-	native: "Kurdî",
-	native_ascii: "Kurdi"
-};
 var Latvian$1 = {
 	id: 1062,
 	code_page: 1257,
@@ -294,13 +270,29 @@ var Latvian$1 = {
 	native: "Latviešu",
 	native_ascii: "Latviesu"
 };
-var Lithuanian$1 = {
-	id: 1063,
-	code_page: 1257,
+var Italian$1 = {
+	id: 1040,
+	code_page: 1252,
 	rtl: false,
-	english: "Lithuanian",
-	native: "Lietuvių",
-	native_ascii: "Lietuviu"
+	english: "Italian",
+	native: "Italiano",
+	native_ascii: "Italiano"
+};
+var Indonesian$1 = {
+	id: 1057,
+	code_page: 1252,
+	rtl: false,
+	english: "Indonesian",
+	native: "Bahasa Indonesia",
+	native_ascii: "Bahasa Indonesia"
+};
+var Korean$1 = {
+	id: 1042,
+	code_page: 949,
+	rtl: false,
+	english: "Korean",
+	native: "한국어",
+	native_ascii: "Hangugeo"
 };
 var Luxembourgish$1 = {
 	id: 4103,
@@ -310,14 +302,6 @@ var Luxembourgish$1 = {
 	native: "Lëtzebuergesch",
 	native_ascii: "Letzebuergesch"
 };
-var Macedonian$1 = {
-	id: 1071,
-	code_page: 1251,
-	rtl: false,
-	english: "Macedonian",
-	native: "Македонски",
-	native_ascii: "Makedonski"
-};
 var Malay$1 = {
 	id: 1086,
 	code_page: 1252,
@@ -326,6 +310,30 @@ var Malay$1 = {
 	native: "Bahasa Melayu",
 	native_ascii: "Bahasa Melayu"
 };
+var Lithuanian$1 = {
+	id: 1063,
+	code_page: 1257,
+	rtl: false,
+	english: "Lithuanian",
+	native: "Lietuvių",
+	native_ascii: "Lietuviu"
+};
+var Macedonian$1 = {
+	id: 1071,
+	code_page: 1251,
+	rtl: false,
+	english: "Macedonian",
+	native: "Македонски",
+	native_ascii: "Makedonski"
+};
+var Polish$1 = {
+	id: 1045,
+	code_page: 1250,
+	rtl: false,
+	english: "Polish",
+	native: "Polski",
+	native_ascii: "Polski"
+};
 var Mongolian$1 = {
 	id: 1104,
 	code_page: 1251,
@@ -333,14 +341,6 @@ var Mongolian$1 = {
 	english: "Mongolian (Cyrillic)",
 	native: "Монгол Кирилл",
 	native_ascii: "Mongol kirill"
-};
-var Norwegian$1 = {
-	id: 1044,
-	code_page: 1252,
-	rtl: false,
-	english: "Norwegian",
-	native: "Norsk",
-	native_ascii: "Norsk"
 };
 var NorwegianNynorsk$1 = {
 	id: 2068,
@@ -358,13 +358,13 @@ var Pashto$1 = {
 	native: "پښتو",
 	native_ascii: "Pashto"
 };
-var Polish$1 = {
-	id: 1045,
-	code_page: 1250,
+var PortugueseBR$1 = {
+	id: 1046,
+	code_page: 1252,
 	rtl: false,
-	english: "Polish",
-	native: "Polski",
-	native_ascii: "Polski"
+	english: "Brazilian Portuguese",
+	native: "Português Brasileiro",
+	native_ascii: "Portugues Brasileiro"
 };
 var Portuguese$1 = {
 	id: 2070,
@@ -374,13 +374,13 @@ var Portuguese$1 = {
 	native: "Português",
 	native_ascii: "Portugues"
 };
-var PortugueseBR$1 = {
-	id: 1046,
-	code_page: 1252,
+var Russian$1 = {
+	id: 1049,
+	code_page: 1251,
 	rtl: false,
-	english: "Brazilian Portuguese",
-	native: "Português Brasileiro",
-	native_ascii: "Portugues Brasileiro"
+	english: "Russian",
+	native: "Русский",
+	native_ascii: "Russkij"
 };
 var Romanian$1 = {
 	id: 1048,
@@ -390,13 +390,13 @@ var Romanian$1 = {
 	native: "Română",
 	native_ascii: "Romana"
 };
-var Russian$1 = {
-	id: 1049,
+var Serbian$1 = {
+	id: 3098,
 	code_page: 1251,
 	rtl: false,
-	english: "Russian",
-	native: "Русский",
-	native_ascii: "Russkij"
+	english: "Serbian (Cyrillic)",
+	native: "Српски",
+	native_ascii: "Srpski (Cyrillic)"
 };
 var ScotsGaelic$1 = {
 	id: 1169,
@@ -406,13 +406,13 @@ var ScotsGaelic$1 = {
 	native: "Gàidhlig",
 	native_ascii: "Gaidhlig"
 };
-var Serbian$1 = {
-	id: 3098,
-	code_page: 1251,
+var Slovak$1 = {
+	id: 1051,
+	code_page: 1250,
 	rtl: false,
-	english: "Serbian (Cyrillic)",
-	native: "Српски",
-	native_ascii: "Srpski (Cyrillic)"
+	english: "Slovak",
+	native: "Slovenčina",
+	native_ascii: "Slovencina"
 };
 var SerbianLatin$1 = {
 	id: 2074,
@@ -430,13 +430,13 @@ var SimpChinese$1 = {
 	native: "中文(简体)",
 	native_ascii: "Hanyu (Jiantizi)"
 };
-var Slovak$1 = {
-	id: 1051,
-	code_page: 1250,
+var SpanishInternational$1 = {
+	id: 3082,
+	code_page: 1252,
 	rtl: false,
-	english: "Slovak",
-	native: "Slovenčina",
-	native_ascii: "Slovencina"
+	english: "Spanish (International)",
+	native: "Español (Alfabetización Internacional)",
+	native_ascii: "Espanol (Alfabetizacion Internacional)"
 };
 var Slovenian$1 = {
 	id: 1060,
@@ -454,13 +454,21 @@ var Spanish$1 = {
 	native: "Español",
 	native_ascii: "Espanol"
 };
-var SpanishInternational$1 = {
-	id: 3082,
+var Tatar$1 = {
+	id: 1092,
+	code_page: 1251,
+	rtl: false,
+	english: "Tatar",
+	native: "Татарча",
+	native_ascii: "Tatarcha"
+};
+var Norwegian$1 = {
+	id: 1044,
 	code_page: 1252,
 	rtl: false,
-	english: "Spanish (International)",
-	native: "Español (Alfabetización Internacional)",
-	native_ascii: "Espanol (Alfabetizacion Internacional)"
+	english: "Norwegian",
+	native: "Norsk",
+	native_ascii: "Norsk"
 };
 var Swedish$1 = {
 	id: 1053,
@@ -470,13 +478,13 @@ var Swedish$1 = {
 	native: "Svenska",
 	native_ascii: "Svenska"
 };
-var Tatar$1 = {
-	id: 1092,
-	code_page: 1251,
+var TradChinese$1 = {
+	id: 1028,
+	code_page: 950,
 	rtl: false,
-	english: "Tatar",
-	native: "Татарча",
-	native_ascii: "Tatarcha"
+	english: "Chinese (Traditional)",
+	native: "中文(繁體)",
+	native_ascii: "Hanyu (Fantizi)"
 };
 var Thai$1 = {
 	id: 1054,
@@ -486,13 +494,13 @@ var Thai$1 = {
 	native: "ไทย",
 	native_ascii: "Thai"
 };
-var TradChinese$1 = {
-	id: 1028,
-	code_page: 950,
+var Vietnamese$1 = {
+	id: 1066,
+	code_page: 1258,
 	rtl: false,
-	english: "Chinese (Traditional)",
-	native: "中文(繁體)",
-	native_ascii: "Hanyu (Fantizi)"
+	english: "Vietnamese",
+	native: "Tiếng Việt",
+	native_ascii: "Tieng Viet"
 };
 var Turkish$1 = {
 	id: 1055,
@@ -502,14 +510,6 @@ var Turkish$1 = {
 	native: "Türkçe",
 	native_ascii: "Turkce"
 };
-var Ukrainian$1 = {
-	id: 1058,
-	code_page: 1251,
-	rtl: false,
-	english: "Ukrainian",
-	native: "Українська",
-	native_ascii: "Ukrayins'ka"
-};
 var Uzbek$1 = {
 	id: 1091,
 	code_page: 1252,
@@ -518,13 +518,13 @@ var Uzbek$1 = {
 	native: "O‘zbek",
 	native_ascii: "O'zbek"
 };
-var Vietnamese$1 = {
-	id: 1066,
-	code_page: 1258,
+var Ukrainian$1 = {
+	id: 1058,
+	code_page: 1251,
 	rtl: false,
-	english: "Vietnamese",
-	native: "Tiếng Việt",
-	native_ascii: "Tieng Viet"
+	english: "Ukrainian",
+	native: "Українська",
+	native_ascii: "Ukrayins'ka"
 };
 var Welsh$1 = {
 	id: 1106,
@@ -535,72 +535,72 @@ var Welsh$1 = {
 	native_ascii: "Cymraeg"
 };
 var meta = {
-	Afrikaans: Afrikaans$1,
-	Albanian: Albanian$1,
-	Arabic: Arabic$1,
 	Armenian: Armenian$1,
+	Albanian: Albanian$1,
+	Afrikaans: Afrikaans$1,
 	Asturian: Asturian$1,
-	Basque: Basque$1,
-	Belarusian: Belarusian$1,
-	Bosnian: Bosnian$1,
-	Breton: Breton$1,
-	Bulgarian: Bulgarian$1,
+	Arabic: Arabic$1,
 	Catalan: Catalan$1,
-	Corsican: Corsican$1,
+	Belarusian: Belarusian$1,
+	Breton: Breton$1,
+	Basque: Basque$1,
+	Bosnian: Bosnian$1,
 	Croatian: Croatian$1,
-	Czech: Czech$1,
-	Danish: Danish$1,
+	Bulgarian: Bulgarian$1,
 	Dutch: Dutch$1,
-	English: English$1,
+	Corsican: Corsican$1,
+	Czech: Czech$1,
 	Esperanto: Esperanto$1,
-	Estonian: Estonian$1,
+	English: English$1,
+	Danish: Danish$1,
 	Farsi: Farsi$1,
-	Finnish: Finnish$1,
+	Estonian: Estonian$1,
 	French: French$1,
 	Galician: Galician$1,
 	Georgian: Georgian$1,
+	Finnish: Finnish$1,
 	German: German$1,
 	Greek: Greek$1,
-	Hebrew: Hebrew$1,
 	Hindi: Hindi$1,
-	Hungarian: Hungarian$1,
 	Icelandic: Icelandic$1,
-	Indonesian: Indonesian$1,
+	Hebrew: Hebrew$1,
+	Hungarian: Hungarian$1,
 	Irish: Irish$1,
-	Italian: Italian$1,
-	Japanese: Japanese$1,
-	Korean: Korean$1,
 	Kurdish: Kurdish$1,
+	Japanese: Japanese$1,
 	Latvian: Latvian$1,
-	Lithuanian: Lithuanian$1,
+	Italian: Italian$1,
+	Indonesian: Indonesian$1,
+	Korean: Korean$1,
 	Luxembourgish: Luxembourgish$1,
-	Macedonian: Macedonian$1,
 	Malay: Malay$1,
+	Lithuanian: Lithuanian$1,
+	Macedonian: Macedonian$1,
+	Polish: Polish$1,
 	Mongolian: Mongolian$1,
-	Norwegian: Norwegian$1,
 	NorwegianNynorsk: NorwegianNynorsk$1,
 	Pashto: Pashto$1,
-	Polish: Polish$1,
-	Portuguese: Portuguese$1,
 	PortugueseBR: PortugueseBR$1,
-	Romanian: Romanian$1,
+	Portuguese: Portuguese$1,
 	Russian: Russian$1,
-	ScotsGaelic: ScotsGaelic$1,
+	Romanian: Romanian$1,
 	Serbian: Serbian$1,
+	ScotsGaelic: ScotsGaelic$1,
+	Slovak: Slovak$1,
 	SerbianLatin: SerbianLatin$1,
 	SimpChinese: SimpChinese$1,
-	Slovak: Slovak$1,
+	SpanishInternational: SpanishInternational$1,
 	Slovenian: Slovenian$1,
 	Spanish: Spanish$1,
-	SpanishInternational: SpanishInternational$1,
-	Swedish: Swedish$1,
 	Tatar: Tatar$1,
-	Thai: Thai$1,
+	Norwegian: Norwegian$1,
+	Swedish: Swedish$1,
 	TradChinese: TradChinese$1,
-	Turkish: Turkish$1,
-	Ukrainian: Ukrainian$1,
-	Uzbek: Uzbek$1,
+	Thai: Thai$1,
 	Vietnamese: Vietnamese$1,
+	Turkish: Turkish$1,
+	Uzbek: Uzbek$1,
+	Ukrainian: Ukrainian$1,
 	Welsh: Welsh$1
 };
 
@@ -5692,7 +5692,7 @@ var strings$j = {
 	Branding: "Nullsoft Install System %s",
 	SetupCaption: "Instalação do $(^Name)",
 	UninstallCaption: "Desinstalação do $(^Name)",
-	LicenseSubCaption: ": Acordo de licença",
+	LicenseSubCaption: ": Acordo de Licença",
 	ComponentsSubCaption: ": Opções da Instalação",
 	DirSubCaption: ": Pasta da Instalação",
 	InstallingSubCaption: ": Instalando",
@@ -5713,67 +5713,67 @@ var strings$j = {
 	CloseBtn: "&Fechar",
 	BrowseBtn: "P&rocurar...",
 	ShowDetailsBtn: "Mostrar &detalhes",
-	ClickNext: "Clique em Próximo para continuar.",
-	ClickInstall: "Clique em Instalar para iniciar a instalação.",
-	ClickUninstall: "Clique em Desinstalar para iniciar a desinstalação.",
+	ClickNext: "Clique em Próximo pra continuar.",
+	ClickInstall: "Clique em Instalar pra iniciar a instalação.",
+	ClickUninstall: "Clique em Desinstalar pra iniciar a desinstalação.",
 	Name: "Nome",
 	Completed: "Completado",
-	LicenseText: "Por favor, leia com atenção o acordo de licença antes de instalar o $(^NameDA). Se você aceita todos os termos do acordo, clique em Eu Concordo.",
-	LicenseTextCB: "Por favor, leia com atenção o acordo de licença antes de instalar o $(^NameDA). Se você aceita todos os termos do acordo, clique na caixa de seleção abaixo. $_CLICK",
-	LicenseTextRB: "Por favor, leia com atenção o acordo de licença antes de instalar o $(^NameDA). Se você aceita todos os termos do acordo, selecione a primeira opção abaixo. $_CLICK",
-	UnLicenseText: "Por favor, leia com atenção o acordo de licença antes de desinstalar o $(^NameDA). Se você aceita todos os termos do acordo, clique em Eu Concordo.",
-	UnLicenseTextCB: "Por favor, leia com atenção o acordo de licença antes de desinstalar o $(^NameDA). Se você aceita todos os termos do acordo, clique na caixa de seleção abaixo. $_CLICK",
-	UnLicenseTextRB: "Por favor, leia com atenção o acordo de licença antes de desinstalar o $(^NameDA). Se você aceita todos os termos do acordo, selecione a primeira opção abaixo. $_CLICK",
-	Custom: "Personalizado",
+	LicenseText: "Por favor reveja o acordo de licença antes de instalar o $(^NameDA). Se você aceita todos os termos do acordo clique em Eu Concordo.",
+	LicenseTextCB: "Por favor reveja o acordo de licença antes de instalar o $(^NameDA). Se você aceita todos os termos do acordo clique na caixa de seleção abaixo. $_CLICK",
+	LicenseTextRB: "Por favor reveja o acordo de licença antes de instalar o $(^NameDA). Se você aceita todos os termos do acordo selecione a primeira opção abaixo. $_CLICK",
+	UnLicenseText: "Por favor reveja o acordo de licença antes de desinstalar o $(^NameDA). Se você aceita todos os termos do acordo clique em Eu Concordo.",
+	UnLicenseTextCB: "Por favor reveja o acordo de licença antes de desinstalar o $(^NameDA). Se você aceita todos os termos do acordo clique na caixa de seleção abaixo. $_CLICK",
+	UnLicenseTextRB: "Por favor reveja o acordo de licença antes de desinstalar o $(^NameDA). Se você aceita todos os termos do acordo selecione a primeira opção abaixo. $_CLICK",
+	Custom: "Personalizar",
 	ComponentsText: "Marque os componentes que você quer instalar e desmarque os componentes que você não quer instalar. $_CLICK",
 	ComponentsSubText1: "Selecione o tipo de instalação:",
 	ComponentsSubText2_NoInstTypes: "Selecione os componentes a instalar:",
-	ComponentsSubText2: "Ou, selecione os componentes opcionais que você deseja instalar:",
+	ComponentsSubText2: "Ou selecione os componentes opcionais que você deseja instalar:",
 	UnComponentsText: "Marque os componentes que você quer desinstalar e desmarque os componentes que você não quer desinstalar. $_CLICK",
 	UnComponentsSubText1: "Selecione o tipo de desinstalação:",
 	UnComponentsSubText2_NoInstTypes: "Selecione os componentes a desinstalar:",
-	UnComponentsSubText2: "Ou, selecione os componentes opcionais que você deseja desinstalar:",
-	DirText: "O $(^NameDA) será instalado na pasta a seguir. Para instalar em uma pasta diferente, clique em Procurar e selecione outra pasta. $_CLICK",
-	DirSubText: "Pasta de Destino",
-	DirBrowseText: "Selecione a pasta para instalar o $(^NameDA):",
-	UnDirText: "O $(^NameDA) será desinstalado da pasta a seguir. Para desinstalar de uma pasta diferente, clique em Procurar e selecione outra pasta. $_CLICK",
+	UnComponentsSubText2: "Ou selecione os componentes opcionais que você deseja desinstalar:",
+	DirText: "O Instalador instalará o $(^NameDA) na seguinte pasta. Pra instalar em uma pasta diferente clique em Procurar e selecione outra pasta. $_CLICK",
+	DirSubText: "Pasta Destino",
+	DirBrowseText: "Selecione a pasta pra instalar o $(^NameDA):",
+	UnDirText: "O Instalador desinstalará o $(^NameDA) da seguinte pasta. Pra desinstalar de uma pasta diferente clique em Procurar e selecione outra pasta. $_CLICK",
 	UnDirSubText: "\"\"",
-	UnDirBrowseText: "Selecione a pasta de onde desinstalar o $(^NameDA):",
+	UnDirBrowseText: "Selecione a pasta pra desinstalar o $(^NameDA):",
 	SpaceAvailable: "\"Espaço disponível: \"",
-	SpaceRequired: "\"Espaço necessário: \"",
-	UninstallingText: "O $(^NameDA) será desinstalado da pasta a seguir. $_CLICK",
+	SpaceRequired: "\"Espaço requerido: \"",
+	UninstallingText: "O $(^NameDA) será desinstalado da seguinte pasta. $_CLICK",
 	UninstallingSubText: "Desinstalando de:",
-	FileError: "Erro ao abrir o arquivo para gravação: \\r\\n\\r\\n$0\\r\\n\\r\\nClique em Abortar para parar a instalação,\\r\\nRepetir para tentar de novo, ou\\r\\nIgnorar para pular este arquivo.",
-	FileError_NoIgnore: "Erro ao abrir o arquivo para gravação: \\r\\n\\r\\n$0\\r\\n\\r\\nClique em Repetir para tentar de novo, ou\\r\\nCancelar para parar a instalação.",
-	CantWrite: "\"Não foi possível gravar: \"",
-	CopyFailed: "Falha ao copiar",
+	FileError: "Erro ao abrir o arquivo pra gravação: \\r\\n\\r\\n$0\\r\\n\\r\\nClique em Abortar pra parar a instalação,\\r\\nRepetir pra tentar de novo ou em\\r\\nIgnorar pra ignorar este arquivo.",
+	FileError_NoIgnore: "Erro ao abrir o arquivo pra gravação: \\r\\n\\r\\n$0\\r\\n\\r\\nClique em Repetir pra tentar de novo ou em\\r\\nCancelar pra parar a instalação.",
+	CantWrite: "\"Não pôde gravar: \"",
+	CopyFailed: "Falhou em copiar",
 	CopyTo: "\"Copiar para \"",
 	Registering: "\"Registrando: \"",
 	Unregistering: "\"Desfazendo o registro: \"",
-	SymbolNotFound: "\"Não foi possível localizar o símbolo: \"",
-	CouldNotLoad: "\"Não foi possível carregar: \"",
+	SymbolNotFound: "\"Não pôde achar o símbolo: \"",
+	CouldNotLoad: "\"Não pôde carregar: \"",
 	CreateFolder: "\"Criar pasta: \"",
 	CreateShortcut: "\"Criar atalho: \"",
 	CreatedUninstaller: "\"Desinstalador criado: \"",
-	Delete: "\"Excluir o arquivo: \"",
-	DeleteOnReboot: "\"Excluir ao reiniciar: \"",
-	ErrorCreatingShortcut: "\"Erro ao criar atalho: \"",
+	Delete: "\"Apagar o arquivo: \"",
+	DeleteOnReboot: "\"Apagar ao reiniciar: \"",
+	ErrorCreatingShortcut: "\"Erro ao criar o atalho: \"",
 	ErrorCreating: "\"Erro ao criar: \"",
 	ErrorDecompressing: "Erro ao descomprimir os dados! Instalador corrompido?",
 	ErrorRegistering: "Erro ao registar a DLL",
 	ExecShell: "\"ExecShell: \"",
 	Exec: "\"Executar: \"",
 	Extract: "\"Extrair: \"",
-	ErrorWriting: "\"Extrair: erro ao gravar o arquivo \"",
+	ErrorWriting: "\"Extrair: erro ao gravar no arquivo \"",
 	InvalidOpcode: "Instalador corrompido: opcode inválido",
 	NoOLE: "\"Sem OLE para: \"",
 	OutputFolder: "\"Pasta de saída: \"",
-	RemoveFolder: "\"Excluir a pasta: \"",
+	RemoveFolder: "\"Remover a pasta: \"",
 	RenameOnReboot: "\"Renomear ao reiniciar: \"",
 	Rename: "\"Renomear: \"",
 	Skipped: "\"Ignorado: \"",
-	CopyDetails: "Copiar os Detalhes para a Área de Transferência",
-	LogInstall: "Registrar o processo de instalação",
+	CopyDetails: "Copiar os Detalhes pra Área de Transferência",
+	LogInstall: "Gravar no log o processo de instalação",
 	Byte: "B",
 	Kilo: " K",
 	Mega: " M",
@@ -7417,95 +7417,95 @@ var font$3 = {
 var code_page$3 = 1251;
 var rtl$3 = false;
 var strings$3 = {
-	Branding: "Nullsoft Install System %s",
-	SetupCaption: "$(^Name) Встановлення",
-	UninstallCaption: "$(^Name) Видалення",
-	LicenseSubCaption: ": Ліцензійна угода",
-	ComponentsSubCaption: ": Опції встановлення",
-	DirSubCaption: ": Тека встановлення",
-	InstallingSubCaption: ": Копіювання файлів",
-	CompletedSubCaption: ": Завершено",
-	UnComponentsSubCaption: ": Опції видалення",
-	UnDirSubCaption: ": Тека видалення",
-	ConfirmSubCaption: ": Підтверждення",
-	UninstallingSubCaption: ": Видалення файлів",
-	UnCompletedSubCaption: ": Завершено",
-	BackBtn: "< &Назад",
-	NextBtn: "&Далі >",
-	AgreeBtn: "&Згоден",
-	AcceptBtn: "Я &приймаю умови Ліцензійної угоди",
-	DontAcceptBtn: "Я &не приймаю умови Ліцензійної угоди",
-	InstallBtn: "&Встановити",
-	UninstallBtn: "Видалити",
-	CancelBtn: "Скасувати",
-	CloseBtn: "&Закрити",
-	BrowseBtn: "О&гляд...",
-	ShowDetailsBtn: "Подробиці",
-	ClickNext: "Натисніть Далі щоб продовжити",
-	ClickInstall: "Натисніть Встановити для початку процессу встановлення",
-	ClickUninstall: "Натисніть Видалить для початку процессу видалення",
-	Name: "Ім'я",
-	Completed: "Завершено",
-	LicenseText: "Прочитайте умови ліцензійної угоди перед встановленням $(^NameDA). Якщо Ви приймаєте умови угоди, натисніть на кнопку Згоден.",
-	LicenseTextCB: "Прочитайте умови ліцензійної угоди перед встановленням $(^NameDA). Якщо Ви приймаєте умови угоди, встановіть відмітку у квадратику нижче. $_CLICK",
-	LicenseTextRB: "Прочитайте умови ліцензійної угоди перед встановленням $(^NameDA). Якщо Ви приймаєте умови угоди, виберіть перший варіант. $_CLICK",
-	UnLicenseText: "Прочитайте умови ліцензійної угоди перед встановленням $(^NameDA). Якщо Ви приймаєте умови ліцензійної угоди, натисніть на кнопку Згоден.",
-	UnLicenseTextCB: "Прочитайте умови ліцензійної угоди перед встановленням $(^NameDA). Якщо Ви приймаєте умови угоди, встановіть відмітку у квадратику нижче. $_CLICK",
-	UnLicenseTextRB: "Прочитайте умови ліцензійної угоди перед видаленням $(^NameDA). Якщо Ви приймаєте умови угоди, виберіть перший варіант. $_CLICK",
-	Custom: "По вибору",
-	ComponentsText: "Виберіть які компоненти програми Ви бажаєте встановити. $_CLICK",
-	ComponentsSubText1: "Виберіть тип встановлення:",
-	ComponentsSubText2_NoInstTypes: "Виберіть компоненти для встановлення:",
-	ComponentsSubText2: "Чи, виберіть вручну компоненти, які Ви хочете встановити:",
-	UnComponentsText: "Виберіть які компоненти Ви бажаєте видалити. Відмітьте компоненти для видалення і зніміть відмітку з тих, які Ви видаляти не бажаєте. $_CLICK",
-	UnComponentsSubText1: "Виберіть тип видалення:",
-	UnComponentsSubText2_NoInstTypes: "Вибір компонентів для видалення:",
-	UnComponentsSubText2: "Чи виберіть компоненти програми для видалення по своєму бажанні:",
-	DirText: "Программа встановить $(^NameDA) у вказану теку. Для того, щоб встановити программу в іншу теку, натисніть Огляд і вкажіть потрібну теку. $_CLICK",
-	DirSubText: "Каталог призначення",
-	DirBrowseText: "Виберіть теку для встановлення $(^NameDA):",
-	UnDirText: "Программа встановлення видалить $(^NameDA) із вказанної теки. Для того, щоб провести видалення з іншої теки, натисніть Огляд і вкажіть потрібну теку. $_CLICK",
-	UnDirSubText: "\"\"",
-	UnDirBrowseText: "Виберіть теку, з якої Ви бажаєте видалити $(^NameDA):",
-	SpaceAvailable: "\"Доступно місця: \"",
-	SpaceRequired: "\"Необхідно місця: \"",
-	UninstallingText: "$(^NameDA) буде видаленно з вказаного каталогу. $_CLICK",
-	UninstallingSubText: "Видалення з:",
-	FileError: "Неможливо відкрити файл для запису: \\r\\n\\t\"$0\"\\r\\nНатисніть Перервати для того, щоб перервати встановлення,\\r\\nПовторити для того, щоб повторити спробу запису у файл, чи\\r\\nІгнорувати для того, щоб пропустити цю дію",
-	FileError_NoIgnore: "Неможливо відкрити файл для запису: \\r\\n\\t\"$0\"\\r\\nНатисніть Повторити для того, щоб повторити спробу запису у файл, чи\\r\\nСкасувати для того, щоб перервати встановлення",
-	CantWrite: "\"Неможливо записати: \"",
-	CopyFailed: "Не вдалося копіювати",
-	CopyTo: "\"Копіювання в \"",
-	Registering: "\"Реєстрація: \"",
-	Unregistering: "\"Видалення реєстрації: \"",
-	SymbolNotFound: "\"Неможливо знайти символ: \"",
-	CouldNotLoad: "\"Неможливо завантажити: \"",
-	CreateFolder: "\"Створення теки: \"",
-	CreateShortcut: "\"Створення ярлика: \"",
-	CreatedUninstaller: "\"Створення програми видалення: \"",
-	Delete: "\"Видалення файлу: \"",
-	DeleteOnReboot: "\"Видалення після перезавантаження: \"",
-	ErrorCreatingShortcut: "\"Помилка створення ярлика: \"",
-	ErrorCreating: "\"Помилка створення: \"",
-	ErrorDecompressing: "Неможливо витягнути дані. Можливо пошкоджений дистрибутив.",
-	ErrorRegistering: "Неможливо зареєструвати бібліотеку (DLL)",
-	ExecShell: "\"Виконання команди оболонки: \"",
-	Exec: "\"Виконання: \"",
-	Extract: "\"Витягнення: \"",
-	ErrorWriting: "\"Витягнення: помилка запису файла\"",
-	InvalidOpcode: "Дистрибутив пошкоджений: помилковий код відповіді",
-	NoOLE: "\"Немає OLE для: \"",
-	OutputFolder: "\"Тека призначення: \"",
-	RemoveFolder: "\"Видалення теки: \"",
-	RenameOnReboot: "\"Переіменування після перезаванаження: \"",
-	Rename: "\"Перейменування: \"",
-	Skipped: "\"Пропущено: \"",
-	CopyDetails: "Копіювати деталі у буфер обміну",
-	LogInstall: "Записувати в лог процес встновлення",
-	Byte: "б",
-	Kilo: " К",
-	Mega: " М",
-	Giga: " Г"
+	Branding: "",
+	SetupCaption: "",
+	UninstallCaption: "Система встановлення Nullsoft %s",
+	LicenseSubCaption: "Встановлення $(^Name)",
+	ComponentsSubCaption: "Видалення $(^Name)",
+	DirSubCaption: ": Ліцензійна угода",
+	InstallingSubCaption: ": Опції встановлення",
+	CompletedSubCaption: ": Тека встановлення",
+	UnComponentsSubCaption: ": Триває встановлення",
+	UnDirSubCaption: ": Завершено",
+	ConfirmSubCaption: ": Опції видалення",
+	UninstallingSubCaption: ": Тека видалення",
+	UnCompletedSubCaption: ": Підтвердження",
+	BackBtn: ": Триває видалення",
+	NextBtn: ": Завершено",
+	AgreeBtn: "< &Назад",
+	AcceptBtn: "&Далі >",
+	DontAcceptBtn: "&Погоджуюся",
+	InstallBtn: "Я &приймаю умови Ліцензійної угоди",
+	UninstallBtn: "Я &не приймаю умови Ліцензійної угоди",
+	CancelBtn: "&Встановити",
+	CloseBtn: "&Видалити",
+	BrowseBtn: "Скасувати",
+	ShowDetailsBtn: "&Закрити",
+	ClickNext: "О&гляд...",
+	ClickInstall: "&Подробиці",
+	ClickUninstall: "Натисніть «Далі» для продовження.",
+	Name: "Натисніть «Встановити», щоб запустити процес встановлення.",
+	Completed: "Натисніть «Видалити», щоб запустити процес видалення.",
+	LicenseText: "Назва",
+	LicenseTextCB: "Завершено",
+	LicenseTextRB: "Ознайомтеся з ліцензійною угодою перед встановленням $(^NameDA). Якщо ви згодні з усіма умовами угоди, натисніть «Погоджуюся».",
+	UnLicenseText: "Ознайомтеся з ліцензійною угодою перед встановленням $(^NameDA). Якщо ви приймаєте умови угоди, встановіть прапорець нижче. $_CLICK",
+	UnLicenseTextCB: "Ознайомтеся з ліцензійною угодою перед встановленням $(^NameDA). Якщо ви приймаєте умови угоди, оберіть перший варіант нижче. $_CLICK",
+	UnLicenseTextRB: "Ознайомтеся з ліцензійною угодою перед видаленням $(^NameDA). Якщо ви згодні з усіма умовами угоди, натисніть «Погоджуюся».",
+	Custom: "Ознайомтеся з ліцензійною угодою перед видаленням $(^NameDA). Якщо ви приймаєте умови угоди, встановіть прапорець нижче. $_CLICK",
+	ComponentsText: "Ознайомтеся з ліцензійною угодою перед видаленням $(^NameDA). Якщо ви приймаєте умови угоди, оберіть перший варіант нижче. $_CLICK",
+	ComponentsSubText1: "Власний вибір",
+	ComponentsSubText2_NoInstTypes: "Позначте компоненти, які ви хочете встановити, та приберіть позначки з непотрібних. $_CLICK",
+	ComponentsSubText2: "Виберіть тип встановлення:",
+	UnComponentsText: "Виберіть компоненти для встановлення:",
+	UnComponentsSubText1: "Або виберіть необов'язкові компоненти, які ви бажаєте встановити:",
+	UnComponentsSubText2_NoInstTypes: "Позначте компоненти, які ви хочете видалити, та приберіть позначки з тих, що потрібно залишити. $_CLICK",
+	UnComponentsSubText2: "Виберіть тип видалення:",
+	DirText: "Виберіть компоненти для видалення:",
+	DirSubText: "Або виберіть необов'язкові компоненти, які ви бажаєте видалити:",
+	DirBrowseText: "Програму $(^NameDA) буде встановлено в зазначену теку. Щоб встановити в іншу теку, натисніть «Огляд» і вкажіть потрібну теку. $_CLICK",
+	UnDirText: "Тека призначення",
+	UnDirSubText: "Виберіть теку для встановлення $(^NameDA):",
+	UnDirBrowseText: "Програму $(^NameDA) буде видалено із зазначеної теки. Щоб виконати видалення з іншої теки, натисніть «Огляд» і вкажіть потрібну теку. $_CLICK",
+	SpaceAvailable: "\"\"",
+	SpaceRequired: "Виберіть теку, з якої потрібно видалити $(^NameDA):",
+	UninstallingText: "\"Доступно місця: \"",
+	UninstallingSubText: "\"Потрібно місця: \"",
+	FileError: "$(^NameDA) буде видалено з вказаної теки. $_CLICK",
+	FileError_NoIgnore: "Видалення з:",
+	CantWrite: "Помилка під час відкриття файлу для запису: \\r\\n\\r\\n$0\\r\\n\\r\\nНатисніть «Перервати», щоб зупинити встановлення,\\r\\n«Повторити», щоб спробувати знову, або\\r\\n«Ігнорувати», щоб пропустити цей файл.",
+	CopyFailed: "Помилка під час відкриття файлу для запису: \\r\\n\\r\\n$0\\r\\n\\r\\nНатисніть «Повторити», щоб спробувати знову, або\\r\\n«Скасувати», щоб зупинити встановлення.",
+	CopyTo: "\"Неможливо записати: \"",
+	Registering: "Не вдалося копіювати",
+	Unregistering: "\"Копіювати до \"",
+	SymbolNotFound: "\"Реєстрація: \"",
+	CouldNotLoad: "\"Скасування реєстрації: \"",
+	CreateFolder: "\"Неможливо знайти символ: \"",
+	CreateShortcut: "\"Неможливо завантажити: \"",
+	CreatedUninstaller: "\"Створення теки: \"",
+	Delete: "\"Створення ярлика: \"",
+	DeleteOnReboot: "\"Створення програми видалення: \"",
+	ErrorCreatingShortcut: "\"Видалення файлу: \"",
+	ErrorCreating: "\"Видалення після перезавантаження: \"",
+	ErrorDecompressing: "\"Помилка створення ярлика: \"",
+	ErrorRegistering: "\"Помилка створення: \"",
+	ExecShell: "Помилка розпакування даних! Можливо, пошкоджений файл встановлення.",
+	Exec: "Помилка реєстрації бібліотеки (DLL)",
+	Extract: "\"Виконання команди оболонки: \"",
+	ErrorWriting: "\"Виконання: \"",
+	InvalidOpcode: "\"Розпакування: \"",
+	NoOLE: "\"Розпакування: помилка запису даних у файл \"",
+	OutputFolder: "Пошкоджений файл встановлення: неприпустимий код відповіді",
+	RemoveFolder: "\"Немає OLE для: \"",
+	RenameOnReboot: "\"Тека призначення: \"",
+	Rename: "\"Видалення теки: \"",
+	Skipped: "\"Перейменувати після перезавантаження: \"",
+	CopyDetails: "\"Перейменування: \"",
+	LogInstall: "\"Пропущено: \"",
+	Byte: "Копіювати подробиці до буфера обміну",
+	Kilo: "Зберегти журнал процесу встановлення",
+	Mega: "Б",
+	Giga: "  К"
 };
 var Ukrainian = {
 	header: header$3,

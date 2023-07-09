@@ -15,7 +15,6 @@ on:
     - main
     paths:
     - '.github/**'
-    - '.github/**'
     - 'src/**'
     - 'tools/**'
     - 'package.json'
