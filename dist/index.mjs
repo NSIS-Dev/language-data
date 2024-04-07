@@ -1,10 +1,10 @@
-var Armenian$1 = {
-	id: 1067,
-	code_page: 1200,
+var Afrikaans$1 = {
+	id: 1078,
+	code_page: 1252,
 	rtl: false,
-	english: "Armenian",
-	native: "Հայերեն",
-	native_ascii: "Hayeren"
+	english: "Afrikaans",
+	native: "Afrikaans",
+	native_ascii: "Afrikaans"
 };
 var Albanian$1 = {
 	id: 1052,
@@ -14,22 +14,6 @@ var Albanian$1 = {
 	native: "Shqip",
 	native_ascii: "Shqip"
 };
-var Afrikaans$1 = {
-	id: 1078,
-	code_page: 1252,
-	rtl: false,
-	english: "Afrikaans",
-	native: "Afrikaans",
-	native_ascii: "Afrikaans"
-};
-var Asturian$1 = {
-	id: 9997,
-	code_page: 1252,
-	rtl: false,
-	english: "Asturian",
-	native: "Asturies",
-	native_ascii: "Asturies"
-};
 var Arabic$1 = {
 	id: 1025,
 	code_page: 1256,
@@ -38,13 +22,13 @@ var Arabic$1 = {
 	native: "العربية",
 	native_ascii: "Al-Arabiyyah"
 };
-var Catalan$1 = {
-	id: 1027,
-	code_page: 1252,
+var Armenian$1 = {
+	id: 1067,
+	code_page: 1200,
 	rtl: false,
-	english: "Catalan",
-	native: "Català",
-	native_ascii: "Catala"
+	english: "Armenian",
+	native: "Հայերեն",
+	native_ascii: "Hayeren"
 };
 var Belarusian$1 = {
 	id: 1059,
@@ -53,6 +37,14 @@ var Belarusian$1 = {
 	english: "Belarusian",
 	native: "Беларуская",
 	native_ascii: "Bielaruskaja"
+};
+var Bosnian$1 = {
+	id: 5146,
+	code_page: 1250,
+	rtl: false,
+	english: "Bosnian",
+	native: "Bosanski",
+	native_ascii: "Bosanski"
 };
 var Breton$1 = {
 	id: 1150,
@@ -70,13 +62,13 @@ var Basque$1 = {
 	native: "Euskera",
 	native_ascii: "Euskera"
 };
-var Bosnian$1 = {
-	id: 5146,
-	code_page: 1250,
+var Asturian$1 = {
+	id: 9997,
+	code_page: 1252,
 	rtl: false,
-	english: "Bosnian",
-	native: "Bosanski",
-	native_ascii: "Bosanski"
+	english: "Asturian",
+	native: "Asturies",
+	native_ascii: "Asturies"
 };
 var Croatian$1 = {
 	id: 1050,
@@ -86,6 +78,14 @@ var Croatian$1 = {
 	native: "Hrvatski",
 	native_ascii: "Hrvatski"
 };
+var Catalan$1 = {
+	id: 1027,
+	code_page: 1252,
+	rtl: false,
+	english: "Catalan",
+	native: "Català",
+	native_ascii: "Catala"
+};
 var Bulgarian$1 = {
 	id: 1026,
 	code_page: 1251,
@@ -93,22 +93,6 @@ var Bulgarian$1 = {
 	english: "Bulgarian",
 	native: "Български",
 	native_ascii: "Balgarski"
-};
-var Dutch$1 = {
-	id: 1043,
-	code_page: 1252,
-	rtl: false,
-	english: "Dutch",
-	native: "Nederlands",
-	native_ascii: "Nederlands"
-};
-var Corsican$1 = {
-	id: 1155,
-	code_page: 1252,
-	rtl: false,
-	english: "Corsican",
-	native: "Corsu",
-	native_ascii: "Corsu"
 };
 var Czech$1 = {
 	id: 1029,
@@ -118,21 +102,13 @@ var Czech$1 = {
 	native: "Čeština",
 	native_ascii: "Cestina"
 };
-var Esperanto$1 = {
-	id: 9998,
-	code_page: null,
+var Corsican$1 = {
+	id: 1155,
+	code_page: 1252,
 	rtl: false,
-	english: "Esperanto",
-	native: "Esperanto",
-	native_ascii: "Esperanto"
-};
-var English$1 = {
-	id: 1033,
-	code_page: null,
-	rtl: false,
-	english: "English",
-	native: "English",
-	native_ascii: "English"
+	english: "Corsican",
+	native: "Corsu",
+	native_ascii: "Corsu"
 };
 var Danish$1 = {
 	id: 1030,
@@ -142,13 +118,21 @@ var Danish$1 = {
 	native: "Dansk",
 	native_ascii: "Dansk"
 };
-var Farsi$1 = {
-	id: 1065,
-	code_page: 1256,
-	rtl: true,
-	english: "Persian",
-	native: "فارسی",
-	native_ascii: "Farsi"
+var Dutch$1 = {
+	id: 1043,
+	code_page: 1252,
+	rtl: false,
+	english: "Dutch",
+	native: "Nederlands",
+	native_ascii: "Nederlands"
+};
+var English$1 = {
+	id: 1033,
+	code_page: null,
+	rtl: false,
+	english: "English",
+	native: "English",
+	native_ascii: "English"
 };
 var Estonian$1 = {
 	id: 1061,
@@ -158,13 +142,29 @@ var Estonian$1 = {
 	native: "Eesti keel",
 	native_ascii: "Eesti keel"
 };
-var French$1 = {
-	id: 1036,
+var Esperanto$1 = {
+	id: 9998,
+	code_page: null,
+	rtl: false,
+	english: "Esperanto",
+	native: "Esperanto",
+	native_ascii: "Esperanto"
+};
+var Farsi$1 = {
+	id: 1065,
+	code_page: 1256,
+	rtl: true,
+	english: "Persian",
+	native: "فارسی",
+	native_ascii: "Farsi"
+};
+var Finnish$1 = {
+	id: 1035,
 	code_page: 1252,
 	rtl: false,
-	english: "French",
-	native: "Français",
-	native_ascii: "Francais"
+	english: "Finnish",
+	native: "Suomi",
+	native_ascii: "Suomi"
 };
 var Galician$1 = {
 	id: 1110,
@@ -174,6 +174,14 @@ var Galician$1 = {
 	native: "Galego",
 	native_ascii: "Galego"
 };
+var French$1 = {
+	id: 1036,
+	code_page: 1252,
+	rtl: false,
+	english: "French",
+	native: "Français",
+	native_ascii: "Francais"
+};
 var Georgian$1 = {
 	id: 1079,
 	code_page: 1200,
@@ -182,13 +190,13 @@ var Georgian$1 = {
 	native: "ქართული",
 	native_ascii: "Kartuli"
 };
-var Finnish$1 = {
-	id: 1035,
-	code_page: 1252,
-	rtl: false,
-	english: "Finnish",
-	native: "Suomi",
-	native_ascii: "Suomi"
+var Hebrew$1 = {
+	id: 1037,
+	code_page: 1255,
+	rtl: true,
+	english: "Hebrew",
+	native: "עברית",
+	native_ascii: "Ivrit"
 };
 var German$1 = {
 	id: 1031,
@@ -206,30 +214,6 @@ var Greek$1 = {
 	native: "Ελληνικά",
 	native_ascii: "Ellinika"
 };
-var Hindi$1 = {
-	id: 1081,
-	code_page: 1200,
-	rtl: false,
-	english: "Hindi",
-	native: "हिन्दी",
-	native_ascii: "Hindi"
-};
-var Icelandic$1 = {
-	id: 1039,
-	code_page: 1252,
-	rtl: false,
-	english: "Icelandic",
-	native: "Íslenska",
-	native_ascii: "Islenska"
-};
-var Hebrew$1 = {
-	id: 1037,
-	code_page: 1255,
-	rtl: true,
-	english: "Hebrew",
-	native: "עברית",
-	native_ascii: "Ivrit"
-};
 var Hungarian$1 = {
 	id: 1038,
 	code_page: 1250,
@@ -237,6 +221,14 @@ var Hungarian$1 = {
 	english: "Hungarian",
 	native: "Magyar",
 	native_ascii: "Magyar"
+};
+var Hindi$1 = {
+	id: 1081,
+	code_page: 1200,
+	rtl: false,
+	english: "Hindi",
+	native: "हिन्दी",
+	native_ascii: "Hindi"
 };
 var Irish$1 = {
 	id: 2108,
@@ -246,14 +238,6 @@ var Irish$1 = {
 	native: "Gaeilge",
 	native_ascii: "Gaeilge"
 };
-var Kurdish$1 = {
-	id: 9999,
-	code_page: 1254,
-	rtl: false,
-	english: "Kurdish",
-	native: "Kurdî",
-	native_ascii: "Kurdi"
-};
 var Japanese$1 = {
 	id: 1041,
 	code_page: 932,
@@ -261,22 +245,6 @@ var Japanese$1 = {
 	english: "Japanese",
 	native: "日本語",
 	native_ascii: "Nihongo"
-};
-var Latvian$1 = {
-	id: 1062,
-	code_page: 1257,
-	rtl: false,
-	english: "Latvian",
-	native: "Latviešu",
-	native_ascii: "Latviesu"
-};
-var Italian$1 = {
-	id: 1040,
-	code_page: 1252,
-	rtl: false,
-	english: "Italian",
-	native: "Italiano",
-	native_ascii: "Italiano"
 };
 var Indonesian$1 = {
 	id: 1057,
@@ -294,21 +262,29 @@ var Korean$1 = {
 	native: "한국어",
 	native_ascii: "Hangugeo"
 };
-var Luxembourgish$1 = {
-	id: 4103,
+var Icelandic$1 = {
+	id: 1039,
 	code_page: 1252,
 	rtl: false,
-	english: "Luxembourgish",
-	native: "Lëtzebuergesch",
-	native_ascii: "Letzebuergesch"
+	english: "Icelandic",
+	native: "Íslenska",
+	native_ascii: "Islenska"
 };
-var Malay$1 = {
-	id: 1086,
+var Italian$1 = {
+	id: 1040,
 	code_page: 1252,
 	rtl: false,
-	english: "Malay",
-	native: "Bahasa Melayu",
-	native_ascii: "Bahasa Melayu"
+	english: "Italian",
+	native: "Italiano",
+	native_ascii: "Italiano"
+};
+var Kurdish$1 = {
+	id: 9999,
+	code_page: 1254,
+	rtl: false,
+	english: "Kurdish",
+	native: "Kurdî",
+	native_ascii: "Kurdi"
 };
 var Lithuanian$1 = {
 	id: 1063,
@@ -318,21 +294,29 @@ var Lithuanian$1 = {
 	native: "Lietuvių",
 	native_ascii: "Lietuviu"
 };
-var Macedonian$1 = {
-	id: 1071,
-	code_page: 1251,
+var Latvian$1 = {
+	id: 1062,
+	code_page: 1257,
 	rtl: false,
-	english: "Macedonian",
-	native: "Македонски",
-	native_ascii: "Makedonski"
+	english: "Latvian",
+	native: "Latviešu",
+	native_ascii: "Latviesu"
 };
-var Polish$1 = {
-	id: 1045,
-	code_page: 1250,
+var Luxembourgish$1 = {
+	id: 4103,
+	code_page: 1252,
 	rtl: false,
-	english: "Polish",
-	native: "Polski",
-	native_ascii: "Polski"
+	english: "Luxembourgish",
+	native: "Lëtzebuergesch",
+	native_ascii: "Letzebuergesch"
+};
+var Norwegian$1 = {
+	id: 1044,
+	code_page: 1252,
+	rtl: false,
+	english: "Norwegian",
+	native: "Norsk",
+	native_ascii: "Norsk"
 };
 var Mongolian$1 = {
 	id: 1104,
@@ -341,6 +325,14 @@ var Mongolian$1 = {
 	english: "Mongolian (Cyrillic)",
 	native: "Монгол Кирилл",
 	native_ascii: "Mongol kirill"
+};
+var Malay$1 = {
+	id: 1086,
+	code_page: 1252,
+	rtl: false,
+	english: "Malay",
+	native: "Bahasa Melayu",
+	native_ascii: "Bahasa Melayu"
 };
 var NorwegianNynorsk$1 = {
 	id: 2068,
@@ -358,13 +350,21 @@ var Pashto$1 = {
 	native: "پښتو",
 	native_ascii: "Pashto"
 };
-var PortugueseBR$1 = {
-	id: 1046,
-	code_page: 1252,
+var Romanian$1 = {
+	id: 1048,
+	code_page: 1250,
 	rtl: false,
-	english: "Brazilian Portuguese",
-	native: "Português Brasileiro",
-	native_ascii: "Portugues Brasileiro"
+	english: "Romanian",
+	native: "Română",
+	native_ascii: "Romana"
+};
+var Polish$1 = {
+	id: 1045,
+	code_page: 1250,
+	rtl: false,
+	english: "Polish",
+	native: "Polski",
+	native_ascii: "Polski"
 };
 var Portuguese$1 = {
 	id: 2070,
@@ -382,13 +382,13 @@ var Russian$1 = {
 	native: "Русский",
 	native_ascii: "Russkij"
 };
-var Romanian$1 = {
-	id: 1048,
-	code_page: 1250,
+var Macedonian$1 = {
+	id: 1071,
+	code_page: 1251,
 	rtl: false,
-	english: "Romanian",
-	native: "Română",
-	native_ascii: "Romana"
+	english: "Macedonian",
+	native: "Македонски",
+	native_ascii: "Makedonski"
 };
 var Serbian$1 = {
 	id: 3098,
@@ -406,22 +406,6 @@ var ScotsGaelic$1 = {
 	native: "Gàidhlig",
 	native_ascii: "Gaidhlig"
 };
-var Slovak$1 = {
-	id: 1051,
-	code_page: 1250,
-	rtl: false,
-	english: "Slovak",
-	native: "Slovenčina",
-	native_ascii: "Slovencina"
-};
-var SerbianLatin$1 = {
-	id: 2074,
-	code_page: 1250,
-	rtl: false,
-	english: "Serbian (Latin)",
-	native: "Srpski",
-	native_ascii: "Srpski"
-};
 var SimpChinese$1 = {
 	id: 2052,
 	code_page: 936,
@@ -429,6 +413,14 @@ var SimpChinese$1 = {
 	english: "Chinese (Simplified)",
 	native: "中文(简体)",
 	native_ascii: "Hanyu (Jiantizi)"
+};
+var Slovak$1 = {
+	id: 1051,
+	code_page: 1250,
+	rtl: false,
+	english: "Slovak",
+	native: "Slovenčina",
+	native_ascii: "Slovencina"
 };
 var SpanishInternational$1 = {
 	id: 3082,
@@ -438,6 +430,22 @@ var SpanishInternational$1 = {
 	native: "Español (Alfabetización Internacional)",
 	native_ascii: "Espanol (Alfabetizacion Internacional)"
 };
+var SerbianLatin$1 = {
+	id: 2074,
+	code_page: 1250,
+	rtl: false,
+	english: "Serbian (Latin)",
+	native: "Srpski",
+	native_ascii: "Srpski"
+};
+var PortugueseBR$1 = {
+	id: 1046,
+	code_page: 1252,
+	rtl: false,
+	english: "Brazilian Portuguese",
+	native: "Português Brasileiro",
+	native_ascii: "Portugues Brasileiro"
+};
 var Slovenian$1 = {
 	id: 1060,
 	code_page: 1250,
@@ -445,14 +453,6 @@ var Slovenian$1 = {
 	english: "Slovenian",
 	native: "Slovenski",
 	native_ascii: "Slovenski"
-};
-var Spanish$1 = {
-	id: 1034,
-	code_page: 1252,
-	rtl: false,
-	english: "Spanish",
-	native: "Español",
-	native_ascii: "Espanol"
 };
 var Tatar$1 = {
 	id: 1092,
@@ -462,13 +462,13 @@ var Tatar$1 = {
 	native: "Татарча",
 	native_ascii: "Tatarcha"
 };
-var Norwegian$1 = {
-	id: 1044,
+var Spanish$1 = {
+	id: 1034,
 	code_page: 1252,
 	rtl: false,
-	english: "Norwegian",
-	native: "Norsk",
-	native_ascii: "Norsk"
+	english: "Spanish",
+	native: "Español",
+	native_ascii: "Espanol"
 };
 var Swedish$1 = {
 	id: 1053,
@@ -477,6 +477,14 @@ var Swedish$1 = {
 	english: "Swedish",
 	native: "Svenska",
 	native_ascii: "Svenska"
+};
+var Turkish$1 = {
+	id: 1055,
+	code_page: 1254,
+	rtl: false,
+	english: "Turkish",
+	native: "Türkçe",
+	native_ascii: "Turkce"
 };
 var TradChinese$1 = {
 	id: 1028,
@@ -494,21 +502,13 @@ var Thai$1 = {
 	native: "ไทย",
 	native_ascii: "Thai"
 };
-var Vietnamese$1 = {
-	id: 1066,
-	code_page: 1258,
+var Ukrainian$1 = {
+	id: 1058,
+	code_page: 1251,
 	rtl: false,
-	english: "Vietnamese",
-	native: "Tiếng Việt",
-	native_ascii: "Tieng Viet"
-};
-var Turkish$1 = {
-	id: 1055,
-	code_page: 1254,
-	rtl: false,
-	english: "Turkish",
-	native: "Türkçe",
-	native_ascii: "Turkce"
+	english: "Ukrainian",
+	native: "Українська",
+	native_ascii: "Ukrayins'ka"
 };
 var Uzbek$1 = {
 	id: 1091,
@@ -518,13 +518,13 @@ var Uzbek$1 = {
 	native: "O‘zbek",
 	native_ascii: "O'zbek"
 };
-var Ukrainian$1 = {
-	id: 1058,
-	code_page: 1251,
+var Vietnamese$1 = {
+	id: 1066,
+	code_page: 1258,
 	rtl: false,
-	english: "Ukrainian",
-	native: "Українська",
-	native_ascii: "Ukrayins'ka"
+	english: "Vietnamese",
+	native: "Tiếng Việt",
+	native_ascii: "Tieng Viet"
 };
 var Welsh$1 = {
 	id: 1106,
@@ -535,72 +535,72 @@ var Welsh$1 = {
 	native_ascii: "Cymraeg"
 };
 var meta = {
-	Armenian: Armenian$1,
-	Albanian: Albanian$1,
 	Afrikaans: Afrikaans$1,
-	Asturian: Asturian$1,
+	Albanian: Albanian$1,
 	Arabic: Arabic$1,
-	Catalan: Catalan$1,
+	Armenian: Armenian$1,
 	Belarusian: Belarusian$1,
+	Bosnian: Bosnian$1,
 	Breton: Breton$1,
 	Basque: Basque$1,
-	Bosnian: Bosnian$1,
+	Asturian: Asturian$1,
 	Croatian: Croatian$1,
+	Catalan: Catalan$1,
 	Bulgarian: Bulgarian$1,
-	Dutch: Dutch$1,
-	Corsican: Corsican$1,
 	Czech: Czech$1,
-	Esperanto: Esperanto$1,
-	English: English$1,
+	Corsican: Corsican$1,
 	Danish: Danish$1,
-	Farsi: Farsi$1,
+	Dutch: Dutch$1,
+	English: English$1,
 	Estonian: Estonian$1,
-	French: French$1,
-	Galician: Galician$1,
-	Georgian: Georgian$1,
+	Esperanto: Esperanto$1,
+	Farsi: Farsi$1,
 	Finnish: Finnish$1,
+	Galician: Galician$1,
+	French: French$1,
+	Georgian: Georgian$1,
+	Hebrew: Hebrew$1,
 	German: German$1,
 	Greek: Greek$1,
-	Hindi: Hindi$1,
-	Icelandic: Icelandic$1,
-	Hebrew: Hebrew$1,
 	Hungarian: Hungarian$1,
+	Hindi: Hindi$1,
 	Irish: Irish$1,
-	Kurdish: Kurdish$1,
 	Japanese: Japanese$1,
-	Latvian: Latvian$1,
-	Italian: Italian$1,
 	Indonesian: Indonesian$1,
 	Korean: Korean$1,
-	Luxembourgish: Luxembourgish$1,
-	Malay: Malay$1,
+	Icelandic: Icelandic$1,
+	Italian: Italian$1,
+	Kurdish: Kurdish$1,
 	Lithuanian: Lithuanian$1,
-	Macedonian: Macedonian$1,
-	Polish: Polish$1,
+	Latvian: Latvian$1,
+	Luxembourgish: Luxembourgish$1,
+	Norwegian: Norwegian$1,
 	Mongolian: Mongolian$1,
+	Malay: Malay$1,
 	NorwegianNynorsk: NorwegianNynorsk$1,
 	Pashto: Pashto$1,
-	PortugueseBR: PortugueseBR$1,
+	Romanian: Romanian$1,
+	Polish: Polish$1,
 	Portuguese: Portuguese$1,
 	Russian: Russian$1,
-	Romanian: Romanian$1,
+	Macedonian: Macedonian$1,
 	Serbian: Serbian$1,
 	ScotsGaelic: ScotsGaelic$1,
-	Slovak: Slovak$1,
-	SerbianLatin: SerbianLatin$1,
 	SimpChinese: SimpChinese$1,
+	Slovak: Slovak$1,
 	SpanishInternational: SpanishInternational$1,
+	SerbianLatin: SerbianLatin$1,
+	PortugueseBR: PortugueseBR$1,
 	Slovenian: Slovenian$1,
-	Spanish: Spanish$1,
 	Tatar: Tatar$1,
-	Norwegian: Norwegian$1,
+	Spanish: Spanish$1,
 	Swedish: Swedish$1,
+	Turkish: Turkish$1,
 	TradChinese: TradChinese$1,
 	Thai: Thai$1,
-	Vietnamese: Vietnamese$1,
-	Turkish: Turkish$1,
-	Uzbek: Uzbek$1,
 	Ukrainian: Ukrainian$1,
+	Uzbek: Uzbek$1,
+	Vietnamese: Vietnamese$1,
 	Welsh: Welsh$1
 };
 
