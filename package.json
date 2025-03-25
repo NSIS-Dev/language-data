@@ -18,6 +18,7 @@
     "build:json": "node tools/build.mjs",
     "build": "npm-run-all --parallel build:*",
     "lint": "eslint ./data/**/*.json ./src/*.ts --ignore-path .gitignore",
+		"prepack": "npm run build",
     "prepare": "husky install",
     "test": "npm run lint"
   },
