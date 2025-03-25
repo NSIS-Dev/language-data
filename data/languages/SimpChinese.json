@@ -71,7 +71,7 @@
     "Unregistering": "\"正在取消注册: \"",
     "SymbolNotFound": "\"无法找到符号: \"",
     "CouldNotLoad": "\"无法加载: \"",
-    "CreateFolder": "\"创建文件夹: \" ",
+    "CreateFolder": "\"创建文件夹: \"",
     "CreateShortcut": "\"创建快捷方式: \"",
     "CreatedUninstaller": "\"创建卸载程序: \"",
     "Delete": "\"删除文件: \"",
