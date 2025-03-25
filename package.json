@@ -1,6 +1,6 @@
 {
   "name": "@nsis/language-data",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Data for contributed NSIS language files in JSON format",
   "type": "module",
   "exports": {
