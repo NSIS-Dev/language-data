@@ -16,7 +16,7 @@
   "scripts": {
     "build:code": "rollup --config",
     "build:json": "node tools/build.mjs",
-    "build": "npm-run-all --parallel build:*",
+    "build": "npm-run-all build:json build:code",
     "lint": "eslint ./data/**/*.json ./src/*.ts --ignore-path .gitignore",
     "prepack": "npm run build",
     "prepare": "husky",
