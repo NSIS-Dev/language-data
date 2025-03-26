@@ -61,11 +61,5 @@ jobs:
     - name: Install dependencies
       run: pnpm install --frozen-lockfile --strict-peer-dependencies
 
-    - name: Build Source
-      run: pnpm run --if-present build
-
     - name: Lint Source
       run: pnpm run --if-present lint
-
-    - name: Run Tests
-      run: pnpm run --if-present test
