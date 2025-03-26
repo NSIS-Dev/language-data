@@ -17,7 +17,7 @@
     "build:code": "rollup --config",
     "build:json": "node tools/build.mjs",
     "build": "npm run build:json && npm run build:code",
-    "lint": "eslint ./data/**/*.json ./src/*.ts --ignore-path .gitignore",
+    "lint": "eslint ./src/*.ts --ignore-path .gitignore",
     "prepack": "npm run build",
     "prepare": "husky",
     "test": "npm run lint"
@@ -41,7 +41,6 @@
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.57.1",
-    "eslint-plugin-json": "^3.1.0",
     "globby": "^11.1.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.0",
