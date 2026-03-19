@@ -2,7 +2,21 @@
 	"name": "@nsis/language-data",
 	"version": "0.9.3",
 	"description": "Data for contributed NSIS language files in JSON format",
+	"author": "Jan T. Sott",
+	"license": "Zlib",
+	"files": [
+		"data/",
+		"dist/"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NSIS-Dev/language-data.git"
+	},
+	"keywords": [
+		"nsis"
+	],
 	"type": "module",
+	"sideEffects": false,
 	"exports": {
 		".": {
 			"import": {
@@ -45,11 +59,6 @@
 			}
 		}
 	},
-	"sideEffects": false,
-	"files": [
-		"data/",
-		"dist/"
-	],
 	"scripts": {
 		"build:code": "tsdown",
 		"build:json": "node tools/build.js",
@@ -58,15 +67,6 @@
 		"prepack": "npm run build",
 		"test": "npm run lint"
 	},
-	"author": "Jan T. Sott",
-	"license": "Zlib",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/NSIS-Dev/language-data.git"
-	},
-	"keywords": [
-		"nsis"
-	],
 	"devDependencies": {
 		"@commitlint/cli": "^20.5.0",
 		"@commitlint/config-conventional": "^20.5.0",
