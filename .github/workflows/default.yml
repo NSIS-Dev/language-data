@@ -3,22 +3,22 @@ name: CI
 on:
   push:
     branches:
-    - main
+      - main
     paths:
-    - '.github/**'
-    - 'src/**'
-    - 'tools/**'
-    - 'package.json'
-    - 'pnpm-lock.yaml'
+      - ".github/**"
+      - "src/**"
+      - "tools/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
   pull_request:
     branches:
-    - main
+      - main
     paths:
-    - '.github/**'
-    - 'src/**'
-    - 'tools/**'
-    - 'package.json'
-    - 'pnpm-lock.yaml'
+      - ".github/**"
+      - "src/**"
+      - "tools/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
   workflow_dispatch:
 
 jobs:
@@ -26,40 +26,36 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: ['lts/*', '*']
+        node-version: ["lts/*", "*"]
         os: [ubuntu-latest]
 
     steps:
-    - uses: actions/checkout@v3
-      with:
-        fetch-depth: 1
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 1
 
-    - uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Install pnpm
+        uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
 
-    - uses: pnpm/action-setup@v2.0.1
-      name: Install pnpm
-      id: pnpm-install
-      with:
-        version: 9
-        run_install: false
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Get pnpm store directory
-      id: pnpm-cache
-      run: |
-        echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: |
+          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
 
-    - uses: actions/cache@v3
-      name: Setup pnpm cache
-      with:
-        path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-        restore-keys: |
-          ${{ runner.os }}-pnpm-store-
+      - uses: actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7 # v5.0.4
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
-    - name: Install dependencies
-      run: pnpm install --frozen-lockfile --strict-peer-dependencies
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile --strict-peer-dependencies
 
-    - name: Lint Source
-      run: pnpm run --if-present lint
+      - name: Lint Source
+        run: pnpm run --if-present lint
