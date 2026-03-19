@@ -1,6 +1,6 @@
 {
 	"name": "@nsis/language-data",
-	"version": "0.9.3",
+	"version": "0.10.0",
 	"description": "Data for contributed NSIS language files in JSON format",
 	"author": "Jan T. Sott",
 	"license": "Zlib",
