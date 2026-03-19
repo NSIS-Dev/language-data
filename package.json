@@ -32,7 +32,7 @@
 	],
 	"scripts": {
 		"build:code": "tsdown",
-		"build:json": "node tools/build.mjs",
+		"build:json": "node tools/build.js",
 		"build": "npm run build:json && npm run build:code",
 		"lint": "biome check",
 		"prepack": "npm run build",
