@@ -28,8 +28,7 @@
 	"sideEffects": false,
 	"files": [
 		"data/",
-		"dist/",
-		"types/"
+		"dist/"
 	],
 	"scripts": {
 		"build:code": "tsdown",
