@@ -1,6 +1,6 @@
 import meta from '../data/meta.json';
 
-export function codepages(): number[] {
+export function createCodepages(): number[] {
 	const codePages = new Set<number>();
 
 	for (const lang of Object.values(meta)) {
