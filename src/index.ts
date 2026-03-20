@@ -1,4 +1,4 @@
-export { codePages } from './codepages.ts';
+export { codepages } from './codepages.ts';
 export {
 	Afrikaans,
 	Albanian,

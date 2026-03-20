@@ -1,3 +1,3 @@
-import { codepages } from './codepages.macro.ts' with { type: 'macro' };
+import { codepages as createCodepages } from './codepages.macro.ts' with { type: 'macro' };
 
-export const codePages = codepages();
+export const codepages = createCodepages();
