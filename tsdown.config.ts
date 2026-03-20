@@ -1,4 +1,5 @@
 import { defineConfig } from 'tsdown';
+import Macros from 'unplugin-macros/rollup';
 
 export default defineConfig({
 	clean: true,
@@ -14,4 +15,5 @@ export default defineConfig({
 	platform: 'node',
 	target: 'es2020',
 	treeshake: true,
+	plugins: [Macros()],
 });

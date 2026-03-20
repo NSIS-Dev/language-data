@@ -1,4 +1,4 @@
-export { codepages } from './codepages';
+export { codePages } from './codepages.ts';
 export {
 	Afrikaans,
 	Albanian,
@@ -68,5 +68,5 @@ export {
 	Uzbek,
 	Vietnamese,
 	Welsh,
-} from './languages';
-export { meta } from './meta';
+} from './languages.ts';
+export { meta } from './meta.ts';
