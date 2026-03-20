@@ -1,1 +1,1 @@
-export { default as meta } from '../data/meta.json';
+export { default as meta } from '../data/meta.json' with { type: 'macro' };
